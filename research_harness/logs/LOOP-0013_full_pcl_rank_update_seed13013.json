@@ -1,0 +1,979 @@
+{
+  "loop": "LOOP-0013",
+  "lane": "WS-full-pcl-certificate / trace-coupled Schur-Gram-SOS-rank-one-update diagnostics",
+  "success_condition_met": false,
+  "D_only_route_status": "explicitly rejected: D-only pivots/minors are false and are not used as a certificate target",
+  "proved_algebraic_identity": "For every principal S, det(M_S)=det(D_S)+(1/2)t_S^T adj(D_S)conj(t_S), the matrix determinant lemma/adjugate polynomial identity for M_S=D_S+(1/2)conj(t_S)t_S^T.",
+  "unproved_certificate_target": "Need a symbolic Gram/SOS/Schur proof that det(D_S)+(1/2)q_S >= 0 for all principal S, or an equivalent full Hermitian Schur complement certificate for M itself.",
+  "coordinate_scan": {
+    "summary": {
+      "total_plane_pairs": 14400,
+      "M_negative_eig_count": 0,
+      "D_negative_eig_count": 48,
+      "D_no_nonnegative_pivot_order_count": 120,
+      "M_no_nonnegative_pivot_order_count": 0,
+      "min_eig_M": {
+        "value": 0.0,
+        "case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "min_eig_D": {
+        "value": -1.0,
+        "case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "eig_D": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "principal_subset_stats": {
+      "1": {
+        "min_detM": {
+          "value": 0.5,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0
+            ],
+            "detD": 0.0,
+            "update_q": 1.0,
+            "detM": 0.5,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_detD": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0
+            ],
+            "detD": 0.0,
+            "update_q": 1.0,
+            "detM": 0.5,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_update_q": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              1
+            ],
+            "detD": 1.0,
+            "update_q": 0.0,
+            "detM": 1.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 0,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 0,
+        "max_identity_abs_residual": 0.0
+      },
+      "2": {
+        "min_detM": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0,
+              3
+            ],
+            "detD": -1.0,
+            "update_q": 2.0,
+            "detM": 0.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_detD": {
+          "value": -1.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0,
+              3
+            ],
+            "detD": -1.0,
+            "update_q": 2.0,
+            "detM": 0.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_update_q": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              1,
+              2
+            ],
+            "detD": 1.0,
+            "update_q": 0.0,
+            "detM": 1.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 48,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 264,
+        "max_identity_abs_residual": 0.0
+      },
+      "3": {
+        "min_detM": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0,
+              1,
+              3
+            ],
+            "detD": -1.0,
+            "update_q": 2.0,
+            "detM": 0.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_detD": {
+          "value": -1.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0,
+              1,
+              3
+            ],
+            "detD": -1.0,
+            "update_q": 2.0,
+            "detM": 0.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_update_q": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              2
+            ],
+            "S": [
+              1,
+              2,
+              3
+            ],
+            "detD": 1.0,
+            "update_q": 0.0,
+            "detM": 1.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 96,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 528,
+        "max_identity_abs_residual": 0.0
+      },
+      "4": {
+        "min_detM": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": -1.0,
+            "update_q": 2.0,
+            "detM": 0.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_detD": {
+          "value": -1.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              0,
+              1
+            ],
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": -1.0,
+            "update_q": 2.0,
+            "detM": 0.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_update_q": {
+          "value": 0.0,
+          "case": {
+            "P": [
+              0,
+              1
+            ],
+            "Q": [
+              2,
+              3
+            ],
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": 1.0,
+            "update_q": 0.0,
+            "detM": 1.0,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 48,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 264,
+        "max_identity_abs_residual": 8.881784197001252e-16
+      }
+    },
+    "fixed_M_pivot_order_stats": {
+      "[0, 1, 2, 3]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[0, 1, 3, 2]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[0, 2, 1, 3]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[0, 2, 3, 1]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[0, 3, 1, 2]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[0, 3, 2, 1]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[1, 0, 2, 3]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[1, 0, 3, 2]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[1, 2, 0, 3]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[1, 2, 3, 0]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[1, 3, 0, 2]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[1, 3, 2, 0]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[2, 0, 1, 3]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[2, 0, 3, 1]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[2, 1, 0, 3]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[2, 1, 3, 0]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[2, 3, 0, 1]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[2, 3, 1, 0]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[3, 0, 1, 2]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[3, 0, 2, 1]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[3, 1, 0, 2]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[3, 1, 2, 0]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      },
+      "[3, 2, 0, 1]": {
+        "bad_count": 264,
+        "min_success_pivot": 0.5,
+        "first_bad_case": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "perm": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "pivots": null,
+          "eig_M": [
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "[3, 2, 1, 0]": {
+        "bad_count": 0,
+        "min_success_pivot": 0.0,
+        "first_bad_case": null
+      }
+    },
+    "coordinate_good_fixed_M_pivot_orders": [
+      "[0, 1, 2, 3]",
+      "[0, 2, 1, 3]",
+      "[1, 0, 2, 3]",
+      "[1, 2, 0, 3]",
+      "[1, 2, 3, 0]",
+      "[1, 3, 2, 0]",
+      "[2, 0, 1, 3]",
+      "[2, 1, 0, 3]",
+      "[2, 1, 3, 0]",
+      "[2, 3, 1, 0]",
+      "[3, 1, 2, 0]",
+      "[3, 2, 1, 0]"
+    ]
+  },
+  "random_scan": {
+    "seed": 13013,
+    "trials": 500,
+    "M_negative_eig_count": 0,
+    "D_negative_eig_count": 0,
+    "M_no_nonnegative_pivot_order_count": 0,
+    "D_no_nonnegative_pivot_order_count": 0,
+    "worst_M_min_eig": {
+      "value": 1.1348538922391722,
+      "case": {
+        "trial": 63,
+        "eig_M": [
+          1.1348538922391722,
+          1.5173396400099186,
+          1.6218261006699703,
+          1.7546788477858934
+        ]
+      }
+    },
+    "worst_D_min_eig": {
+      "value": 1.0395155042774413,
+      "case": {
+        "trial": 287,
+        "eig_D": [
+          1.0395155042774413,
+          1.3005461379354324,
+          1.5864934422275883,
+          1.6953742726808414
+        ]
+      }
+    },
+    "principal_subset_stats": {
+      "1": {
+        "min_detM": {
+          "value": 1.2221637806130328,
+          "case": {
+            "trial": 484,
+            "S": [
+              3
+            ],
+            "detD": 1.159951983284349,
+            "update_q": 0.12442359465736748,
+            "detM": 1.2221637806130328,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_detD": {
+          "value": 1.159951983284349,
+          "case": {
+            "trial": 484,
+            "S": [
+              3
+            ],
+            "detD": 1.159951983284349,
+            "update_q": 0.12442359465736748,
+            "detM": 1.2221637806130328,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "min_update_q": {
+          "value": 5.554618024678745e-05,
+          "case": {
+            "trial": 102,
+            "S": [
+              3
+            ],
+            "detD": 1.5149961164786439,
+            "update_q": 5.554618024678745e-05,
+            "detM": 1.5150238895687673,
+            "identity_abs_residual": 0.0
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 0,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 0,
+        "max_identity_abs_residual": 2.220446049250313e-16
+      },
+      "2": {
+        "min_detM": {
+          "value": 1.7428944074173878,
+          "case": {
+            "trial": 484,
+            "S": [
+              0,
+              3
+            ],
+            "detD": 1.6154996268185104,
+            "update_q": 0.25478956119775387,
+            "detM": 1.7428944074173878,
+            "identity_abs_residual": 4.441434166503682e-16
+          }
+        },
+        "min_detD": {
+          "value": 1.5935313185956037,
+          "case": {
+            "trial": 287,
+            "S": [
+              0,
+              3
+            ],
+            "detD": 1.5935313185956037,
+            "update_q": 0.5920484447458694,
+            "detM": 1.8895555409685385,
+            "identity_abs_residual": 2.0816681711721685e-17
+          }
+        },
+        "min_update_q": {
+          "value": 0.001756922702195725,
+          "case": {
+            "trial": 35,
+            "S": [
+              1,
+              2
+            ],
+            "detD": 2.5147970417437784,
+            "update_q": 0.001756922702195725,
+            "detM": 2.5156755030948763,
+            "identity_abs_residual": 6.098637220230962e-20
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 0,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 0,
+        "max_identity_abs_residual": 8.882803165675148e-16
+      },
+      "3": {
+        "min_detM": {
+          "value": 2.4900043723247083,
+          "case": {
+            "trial": 489,
+            "S": [
+              0,
+              1,
+              2
+            ],
+            "detD": 2.3180767411268706,
+            "update_q": 0.3438552623956753,
+            "detM": 2.4900043723247083,
+            "identity_abs_residual": 3.019693364565188e-18
+          }
+        },
+        "min_detD": {
+          "value": 2.3180767411268706,
+          "case": {
+            "trial": 489,
+            "S": [
+              0,
+              1,
+              2
+            ],
+            "detD": 2.3180767411268706,
+            "update_q": 0.3438552623956753,
+            "detM": 2.4900043723247083,
+            "identity_abs_residual": 3.019693364565188e-18
+          }
+        },
+        "min_update_q": {
+          "value": 0.008421265048441786,
+          "case": {
+            "trial": 17,
+            "S": [
+              0,
+              1,
+              3
+            ],
+            "detD": 3.344441925365474,
+            "update_q": 0.008421265048441786,
+            "detM": 3.348652557889695,
+            "identity_abs_residual": 2.0043585311181518e-19
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 0,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 0,
+        "max_identity_abs_residual": 2.2204522342695097e-15
+      },
+      "4": {
+        "min_detM": {
+          "value": 3.8843571701982333,
+          "case": {
+            "trial": 489,
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": 3.5541875591725542,
+            "update_q": 0.6603392220513565,
+            "detM": 3.8843571701982333,
+            "identity_abs_residual": 8.88243222559818e-16
+          }
+        },
+        "min_detD": {
+          "value": 3.5541875591725542,
+          "case": {
+            "trial": 489,
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": 3.5541875591725542,
+            "update_q": 0.6603392220513565,
+            "detM": 3.8843571701982333,
+            "identity_abs_residual": 8.88243222559818e-16
+          }
+        },
+        "min_update_q": {
+          "value": 0.08447634668938439,
+          "case": {
+            "trial": 289,
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": 5.121850081091066,
+            "update_q": 0.08447634668938439,
+            "detM": 5.164088254435758,
+            "identity_abs_residual": 3.5540186783472804e-18
+          }
+        },
+        "negative_detM_count": 0,
+        "negative_detD_count": 0,
+        "negative_update_q_count": 0,
+        "zero_detM_count": 0,
+        "max_identity_abs_residual": 4.4408938394763505e-15
+      }
+    }
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "claim": "CLAIM-0001",
+  "controls": {
+    "product_LOOP9": {
+      "D1": 0.5,
+      "D1_times_D2": 0.25,
+      "D2": 0.5,
+      "M03": {
+        "im": 0.0,
+        "re": -0.5
+      },
+      "N12_times_N21": 1.0,
+      "delta": 0.0,
+      "det_D": -1.0,
+      "det_identity_residual_abs": 0.0,
+      "eig_D2": [
+        -1.0,
+        1.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "exchange_penalty_N12N21_minus_D1D2": 0.75,
+      "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+      "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+      "margin_D1_minus_mixed12": -0.5,
+      "margin_D2_minus_mixed21": -0.5,
+      "mixed_norm_12": 1.0,
+      "mixed_norm_21": 1.0,
+      "mixed_offdiag": {
+        "im": 0.0,
+        "re": -0.5
+      },
+      "mixed_offdiag_error": 0.0,
+      "orthogonality_U12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "orthogonality_V12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "penalty_minus_slack_equals_negative_delta": 0.0,
+      "penalty_to_slack_ratio_if_positive_slack": 1.0,
+      "same_pair_mismatch": 1.0,
+      "same_pair_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      }
+    },
+    "traceless_LOOP9": {
+      "D1": 0.5,
+      "D1_times_D2": 0.25,
+      "D2": 0.5,
+      "M03": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "N12_times_N21": 4.0,
+      "delta": 0.0,
+      "det_D": 0.0,
+      "det_identity_residual_abs": 0.0,
+      "eig_D2": [
+        0.0,
+        0.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "exchange_penalty_N12N21_minus_D1D2": 3.75,
+      "exchange_product_margin_D1D2_minus_N12N21": -3.75,
+      "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.75,
+      "margin_D1_minus_mixed12": -1.5,
+      "margin_D2_minus_mixed21": -1.5,
+      "mixed_norm_12": 2.0,
+      "mixed_norm_21": 2.0,
+      "mixed_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "mixed_offdiag_error": 0.0,
+      "orthogonality_U12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "orthogonality_V12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "penalty_minus_slack_equals_negative_delta": 0.0,
+      "penalty_to_slack_ratio_if_positive_slack": 1.0,
+      "same_pair_mismatch": 0.0,
+      "same_pair_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      }
+    }
+  },
+  "coordinate_scan": {
+    "max_det_identity_residual_abs": 0.0,
+    "max_penalty_minus_slack_equals_negative_delta": [
+      0.0,
+      {
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "delta": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          }
+        }
+      }
+    ],
+    "max_penalty_to_slack_ratio": [
+      1.0,
+      {
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "delta": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          }
+        }
+      }
+    ],
+    "min_delta": [
+      0.0,
+      {
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "delta": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          }
+        }
+      }
+    ],
+    "min_exchange_product_margin_D1D2_minus_N12N21": [
+      -3.75,
+      {
+        "U_pair": [
+          0,
+          5
+        ],
+        "V_pair": [
+          0,
+          5
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": 0.5
+          },
+          "N12_times_N21": 4.0,
+          "delta": 0.0,
+          "det_D": 0.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            0.0,
+            0.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 3.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.75,
+          "margin_D1_minus_mixed12": -1.5,
+          "margin_D2_minus_mixed21": -1.5,
+          "mixed_norm_12": 2.0,
+          "mixed_norm_21": 2.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 0.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          }
+        }
+      }
+    ],
+    "positive_exchange_penalty_count": 6848,
+    "positive_penalty_with_zero_delta_examples": [
+      {
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "delta": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          }
+        }
+      },
+      {
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_pair": [
+          4,
+          5
+        ],
+        "record": {
+          "D1": 1.0,
+          "D1_times_D2": 1.0,
+          "D2": 1.0,
+          "M03": {
+            "im": 0.0,
+            "re": -1.0
+          },
+          "N12_times_N21": 4.0,
+          "delta": 0.0,
+          "det_D": 0.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            0.0,
+            2.0
+          ],
+          "eig_M2": [
+            0.0,
+            2.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 3.0,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.0,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.0,
+          "margin_D1_minus_mixed12": -1.0,
+          "margin_D2_minus_mixed21": -1.0,
+          "mixed_norm_12": 2.0,
+          "mixed_norm_21": 2.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -1.0
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.0
+          }
+        }
+      },
+      {
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_pair": [
+          8,
+          9
+        ],
+        "record": {
+          "D1": 1.0,
+          "D1_times_D2": 1.0,
+          "D2": 1.0,
+          "M03": {
+            "im": 0.0,
+            "re": -1.0
+          },
+          "N12_times_N21": 4.0,
+          "delta": 0.0,
+          "det_D": 0.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            0.0,
+            2.0
+          ],
+          "eig_M2": [
+            0.0,
+            2.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 3.0,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.0,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.0,
+          "margin_D1_minus_mixed12": -1.0,
+          "margin_D2_minus_mixed21": -1.0,
+          "mixed_norm_12": 2.0,
+          "mixed_norm_21": 2.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -1.0
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.0
+          }
+        }
+      },
+      {
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_pair": [
+          12,
+          13
+        ],
+        "record": {
+          "D1": 1.0,
+          "D1_times_D2": 1.0,
+          "D2": 1.0,
+          "M03": {
+            "im": 0.0,
+            "re": -1.0
+          },
+          "N12_times_N21": 4.0,
+          "delta": 0.0,
+          "det_D": 0.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            0.0,
+            2.0
+          ],
+          "eig_M2": [
+            0.0,
+            2.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 3.0,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.0,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.0,
+          "margin_D1_minus_mixed12": -1.0,
+          "margin_D2_minus_mixed21": -1.0,
+          "mixed_norm_12": 2.0,
+          "mixed_norm_21": 2.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -1.0
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.0
+          }
+        }
+      },
+      {
+        "U_pair": [
+          0,
+          2
+        ],
+        "V_pair": [
+          0,
+          2
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "delta": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          }
+        }
+      }
+    ],
+    "total": 14400
+  },
+  "elapsed_sec": 268.8765871524811,
+  "fail_closed_caveat": "Numerical diagnostics only; scalar crossed minor is not full PCL; no Hermitian/positive/normal assumptions are imposed.",
+  "identity": "Delta = (N12*N21-|m|^2) - (N12*N21-D1*D2), m=<W12,W21> from LOOP-0009 mixed Plucker identity",
+  "lane": "scalar crossed PAL/PCL minor determinant certificate diagnostics",
+  "local_optimization": {
+    "max_penalty_minus_slack": [
+      8.313350008393172e-13,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 120,
+        "record": {
+          "D1": 0.7311845073975229,
+          "D1_times_D2": 0.5346309457125905,
+          "D2": 0.7311847287567429,
+          "M03": {
+            "im": -0.6077080793354872,
+            "re": -0.406597880002014
+          },
+          "N12_times_N21": 3.906801182341238,
+          "delta": 8.314904769018381e-13,
+          "det_D": 4.066248383446729e-13,
+          "det_identity_residual_abs": 1.554760625208522e-16,
+          "eig_D2": [
+            4.396760733271776e-13,
+            0.9247384723077734
+          ],
+          "eig_M2": [
+            5.686007220617739e-13,
+            1.4623692361536973
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 3.3721702366286475,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.3721702366286475,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.372170236629479,
+          "margin_D1_minus_mixed12": -1.2427277477311605,
+          "margin_D2_minus_mixed21": -1.2480325197255335,
+          "mixed_norm_12": 1.9739122551286834,
+          "mixed_norm_21": 1.9792172484822763,
+          "mixed_offdiag": {
+            "im": -0.6077080793354872,
+            "re": -0.406597880002014
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 4.163336342344337e-17,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 1.3877787807814457e-17
+          },
+          "penalty_minus_slack_equals_negative_delta": -8.313350008393172e-13,
+          "penalty_to_slack_ratio_if_positive_slack": 0.9999999999997534,
+          "same_pair_mismatch": 0.4199700783934685,
+          "same_pair_offdiag": {
+            "im": -0.26919838361520226,
+            "re": -0.15802987592832765
+          }
+        },
+        "start": 1,
+        "success": false
+      }
+    ],
+    "maxiter": 120,
+    "min_delta": [
+      3.9613078512756795e-13,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 120,
+        "record": {
+          "D1": 0.7335633854104906,
+          "D1_times_D2": 0.5381152451384592,
+          "D2": 0.7335633918496878,
+          "M03": {
+            "im": -0.7163729965771098,
+            "re": 0.15787645458774194
+          },
+          "N12_times_N21": 3.996559167251164,
+          "delta": 3.9613078512756795e-13,
+          "det_D": 2.515368213804862e-13,
+          "det_identity_residual_abs": 3.209941312096091e-18,
+          "eig_D2": [
+            2.692568390472161e-13,
+            0.9342535545199482
+          ],
+          "eig_M2": [
+            2.699507284376068e-13,
+            1.4671267772599084
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 3.458443922112705,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.458443922112705,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.458443922113101,
+          "margin_D1_minus_mixed12": -1.2654797129711368,
+          "margin_D2_minus_mixed21": -1.2656727279151503,
+          "mixed_norm_12": 1.9990430983816274,
+          "mixed_norm_21": 1.999236119764838,
+          "mixed_offdiag": {
+            "im": -0.7163729965771098,
+            "re": 0.15787645458774194
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 2.7755575615628914e-17,
+            "re": 6.938893903907228e-18
+          },
+          "orthogonality_V12": {
+            "im": -2.7755575615628914e-17,
+            "re": 1.3877787807814457e-17
+          },
+          "penalty_minus_slack_equals_negative_delta": -3.9612757518625585e-13,
+          "penalty_to_slack_ratio_if_positive_slack": 0.9999999999998854,
+          "same_pair_mismatch": 0.4683547650760584,
+          "same_pair_offdiag": {
+            "im": -0.25873875718814454,
+            "re": 0.058241676983066974
+          }
+        },
+        "start": 5,
+        "success": false
+      }
+    ],
+    "min_exchange_product_margin": [
+      -3.7499999999888525,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 120,
+        "record": {
+          "D1": 0.5000000000111984,
+          "D1_times_D2": 0.2500000000099958,
+          "D2": 0.5000000000087932,
+          "M03": {
+            "im": 0.20476877462642107,
+            "re": -0.4561466309553613
+          },
+          "N12_times_N21": 3.9999999999988485,
+          "delta": 1.60631872823464e-11,
+          "det_D": 3.208421914235409e-22,
+          "det_identity_residual_abs": 4.0761635006433e-16,
+          "eig_D2": [
+            1.544358851347183e-11,
+            2.077510619657219e-11
+          ],
+          "eig_M2": [
+            1.6063206320637846e-11,
+            1.0000000000039284
+          ],
+          "exchange_penalty_N12N21_minus_D1D2": 3.7499999999888525,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.7499999999888525,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.750000000004916,
+          "margin_D1_minus_mixed12": -1.4999999999884945,
+          "margin_D2_minus_mixed21": -1.4999999999909381,
+          "mixed_norm_12": 1.999999999999693,
+          "mixed_norm_21": 1.9999999999997313,
+          "mixed_offdiag": {
+            "im": 0.20476877462642107,
+            "re": -0.4561466309553613
+          },
+          "mixed_offdiag_error": 0.0,
+          "orthogonality_U12": {
+            "im": 2.42861286636753e-17,
+            "re": -1.452830911130576e-17
+          },
+          "orthogonality_V12": {
+            "im": -1.734723475976807e-18,
+            "re": -2.42861286636753e-17
+          },
+          "penalty_minus_slack_equals_negative_delta": -1.6063594898696465e-11,
+          "penalty_to_slack_ratio_if_positive_slack": 0.9999999999957164,
+          "same_pair_mismatch": 2.155547603661746e-12,
+          "same_pair_offdiag": {
+            "im": 0.20476877462552273,
+            "re": -0.45614663095340185
+          }
+        },
+        "start": 5,
+        "success": false
+      }
+    ],
+    "scipy_available": true,
+    "starts": 6
+  },
+  "loop": "LOOP-0010",
+  "random_scan": {
+    "max_identity_or_offdiag_residual_abs": 8.881784197001252e-16,
+    "max_penalty_minus_slack_equals_negative_delta": [
+      -1.837601590965339,
+      1989
+    ],
+    "max_penalty_to_slack_ratio": [
+      0.32529075132502455,
+      2226
+    ],
+    "min_delta": [
+      1.8376015909653387,
+      1989
+    ],
+    "min_exchange_product_margin_D1D2_minus_N12N21": [
+      -0.9634774182502084,
+      2226
+    ],
+    "positive_exchange_penalty_count": 1517,
+    "samples": 3000
+  },
+  "status": "exact_cauchy_minus_exchange_identity_recorded; determinant_level_simple_exchange_product_ansatz_obstructed; no proof_or_counterexample"
+}

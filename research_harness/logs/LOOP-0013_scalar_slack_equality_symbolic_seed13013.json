@@ -1,0 +1,162 @@
+{
+  "adversarial_caveat": "Coordinate/local equality signatures were globalized only to explicit families, not classified globally on Gr(2,16)xGr(2,16).",
+  "claim": "CLAIM-0001",
+  "elapsed_sec": 1.706650733947754,
+  "exact_real_rotation_families": {
+    "certificate_status": "exact on these families: mixed Plucker residual=0 and Delta=0 while GramSlack=ExchangePenalty>0; this is guardrail evidence, not a universal SOS certificate",
+    "diagonal_identical_support_family": {
+      "D1": "1/2",
+      "D2": "1/2",
+      "Delta": "0",
+      "ExchangePenalty": "15/4",
+      "GramSlack": "15/4",
+      "M03": "1/2",
+      "N12": "2",
+      "N12_times_N21": "4",
+      "N21": "2",
+      "abs_m_sq": "1/4",
+      "mixed_plucker_M03_residual": "0",
+      "slack_minus_penalty": "0"
+    },
+    "parameters": "real c,s with c^2+s^2=1; q1=(c,s,0,0), q2=(-s,c,0,0)",
+    "same_column_identical_support_family": {
+      "D1": "1/2",
+      "D2": "1/2",
+      "Delta": "0",
+      "ExchangePenalty": "3/4",
+      "GramSlack": "3/4",
+      "M03": "-1/2",
+      "N12": "1",
+      "N12_times_N21": "1",
+      "N21": "1",
+      "abs_m_sq": "1/4",
+      "mixed_plucker_M03_residual": "0",
+      "slack_minus_penalty": "0"
+    },
+    "same_column_parallel_translate_family": {
+      "D1": "1",
+      "D2": "1",
+      "Delta": "0",
+      "ExchangePenalty": "3",
+      "GramSlack": "3",
+      "M03": "-1",
+      "N12": "2",
+      "N12_times_N21": "4",
+      "N21": "2",
+      "abs_m_sq": "1",
+      "mixed_plucker_M03_residual": "0",
+      "slack_minus_penalty": "0"
+    },
+    "same_row_identical_support_family": {
+      "D1": "1/2",
+      "D2": "1/2",
+      "Delta": "0",
+      "ExchangePenalty": "3/4",
+      "GramSlack": "3/4",
+      "M03": "-1/2",
+      "N12": "1",
+      "N12_times_N21": "1",
+      "N21": "1",
+      "abs_m_sq": "1/4",
+      "mixed_plucker_M03_residual": "0",
+      "slack_minus_penalty": "0"
+    },
+    "same_row_parallel_translate_family": {
+      "D1": "1",
+      "D2": "1",
+      "Delta": "0",
+      "ExchangePenalty": "3",
+      "GramSlack": "3",
+      "M03": "-1",
+      "N12": "2",
+      "N12_times_N21": "4",
+      "N21": "2",
+      "abs_m_sq": "1",
+      "mixed_plucker_M03_residual": "0",
+      "slack_minus_penalty": "0"
+    }
+  },
+  "loop": "LOOP-0013",
+  "numeric_complex_unitary_family_tests": {
+    "diagonal_identical": {
+      "first_record": {
+        "D1": 0.5000000000000026,
+        "D2": 0.5000000000000018,
+        "Delta": 2.886579864025413e-15,
+        "ExchangePenalty": 3.749999999999987,
+        "GramSlack": 3.7499999999999902,
+        "ratio": 0.9999999999999992
+      },
+      "max_abs_delta": 2.886579864025413e-15,
+      "max_abs_ratio_minus_one": 7.771561172376096e-16,
+      "max_identity_residual": 3.330669073875667e-16,
+      "min_GramSlack": 3.7499999999999902,
+      "samples": 100
+    },
+    "same_column_identical": {
+      "first_record": {
+        "D1": 0.49999999999999867,
+        "D2": 0.49999999999999933,
+        "Delta": -1.3322676295501811e-15,
+        "ExchangePenalty": 0.7500000000000023,
+        "GramSlack": 0.750000000000001,
+        "ratio": 1.0000000000000018
+      },
+      "max_abs_delta": 2.2204460492503135e-15,
+      "max_abs_ratio_minus_one": 2.886579864025407e-15,
+      "max_identity_residual": 1.38777878078145e-16,
+      "min_GramSlack": 0.7499999999999984,
+      "samples": 100
+    },
+    "same_column_translate": {
+      "first_record": {
+        "D1": 1.0,
+        "D2": 1.0000000000000007,
+        "Delta": 1.3322676295501906e-15,
+        "ExchangePenalty": 2.9999999999999964,
+        "GramSlack": 2.9999999999999973,
+        "ratio": 0.9999999999999997
+      },
+      "max_abs_delta": 4.440892098500635e-15,
+      "max_abs_ratio_minus_one": 1.5543122344752192e-15,
+      "max_identity_residual": 5.551115123125802e-16,
+      "min_GramSlack": 2.9999999999999947,
+      "samples": 100
+    },
+    "same_row_identical": {
+      "first_record": {
+        "D1": 0.49999999999999933,
+        "D2": 0.5000000000000001,
+        "Delta": -2.775557561562896e-16,
+        "ExchangePenalty": 0.7500000000000002,
+        "GramSlack": 0.75,
+        "ratio": 1.0000000000000002
+      },
+      "max_abs_delta": 2.2204460492503135e-15,
+      "max_abs_ratio_minus_one": 2.9976021664879227e-15,
+      "max_identity_residual": 2.220446049250313e-16,
+      "min_GramSlack": 0.7499999999999983,
+      "samples": 100
+    },
+    "same_row_translate": {
+      "first_record": {
+        "D1": 1.000000000000001,
+        "D2": 1.0000000000000009,
+        "Delta": 3.996802888650562e-15,
+        "ExchangePenalty": 2.9999999999999902,
+        "GramSlack": 2.999999999999994,
+        "ratio": 0.9999999999999988
+      },
+      "max_abs_delta": 4.884981308350685e-15,
+      "max_abs_ratio_minus_one": 1.7763568394002505e-15,
+      "max_identity_residual": 4.440892098500666e-16,
+      "min_GramSlack": 2.999999999999992,
+      "samples": 100
+    }
+  },
+  "status": "parametric equality families certified in restricted charts; no universal scalar SOS/Plucker certificate; fail_closed",
+  "workstreams": [
+    "WS-scalar-slack",
+    "WS-equality-geometry"
+  ]
+}

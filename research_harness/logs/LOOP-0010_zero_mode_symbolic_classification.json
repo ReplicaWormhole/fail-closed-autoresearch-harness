@@ -1,0 +1,312 @@
+{
+  "loop": "LOOP-0010",
+  "claim": "CLAIM-0001-rank-two-partial-trace",
+  "tol": 1e-10,
+  "method": "Compare numerical Hessian zero eigenspace against analytic candidate tangent directions from phase and local product-unitary equality orbits using real Frobenius principal-angle residuals.",
+  "controls": {
+    "diag_difference": {
+      "name": "diag_difference",
+      "gap": 0.0,
+      "normalized_gap": 0.0,
+      "real_sphere_tangent_dim": 119,
+      "zero_count_tol": 9,
+      "negative_count_tol": 110,
+      "positive_count_tol": 0,
+      "eigenvalue_min": -2.0,
+      "eigenvalue_max": 0.0,
+      "zero_eigenvalues": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "candidate_reports": {
+        "phase_only": {
+          "candidate_rank": 1,
+          "zero_dim": 9,
+          "classified_zero_dimension_by_principal_cosines": 1,
+          "unclassified_zero_dimension_by_principal_cosines": 8,
+          "contains_zero_space_tol": false,
+          "max_zero_vector_residual_norm": 0.9999999999999999,
+          "mean_zero_vector_residual_norm": 0.8888888888888888,
+          "principal_cosines": [
+            1.0
+          ],
+          "min_principal_cosine": 1.0,
+          "max_principal_sine": 0.0
+        },
+        "local_left_right_product_unitaries": {
+          "candidate_rank": 42,
+          "zero_dim": 9,
+          "classified_zero_dimension_by_principal_cosines": 5,
+          "unclassified_zero_dimension_by_principal_cosines": 4,
+          "contains_zero_space_tol": false,
+          "max_zero_vector_residual_norm": 0.7071067811865475,
+          "mean_zero_vector_residual_norm": 0.6285393610547089,
+          "principal_cosines": [
+            1.0000000000000002,
+            1.0000000000000002,
+            1.0000000000000002,
+            1.0,
+            0.9999999999999998,
+            1.3852707769258226e-16,
+            9.448614761916713e-17,
+            1.6730362139776866e-17,
+            1.0660928357322405e-33
+          ],
+          "min_principal_cosine": 1.0660928357322405e-33,
+          "max_principal_sine": 1.0
+        },
+        "phase_plus_local_unitaries": {
+          "candidate_rank": 42,
+          "zero_dim": 9,
+          "classified_zero_dimension_by_principal_cosines": 5,
+          "unclassified_zero_dimension_by_principal_cosines": 4,
+          "contains_zero_space_tol": false,
+          "max_zero_vector_residual_norm": 0.7071067811865475,
+          "mean_zero_vector_residual_norm": 0.6285393610547089,
+          "principal_cosines": [
+            1.0,
+            1.0,
+            1.0,
+            0.9999999999999998,
+            0.9999999999999997,
+            1.2105004388597515e-16,
+            9.015952892878499e-17,
+            2.3857272994862765e-17,
+            0.0
+          ],
+          "min_principal_cosine": 0.0,
+          "max_principal_sine": 1.0
+        },
+        "named_core_family_diagnostics": {
+          "candidate_rank": 2,
+          "zero_dim": 9,
+          "classified_zero_dimension_by_principal_cosines": 1,
+          "unclassified_zero_dimension_by_principal_cosines": 8,
+          "contains_zero_space_tol": false,
+          "max_zero_vector_residual_norm": 0.9999999999999999,
+          "mean_zero_vector_residual_norm": 0.8888888888888888,
+          "principal_cosines": [
+            1.0,
+            0.0
+          ],
+          "min_principal_cosine": 0.0,
+          "max_principal_sine": 1.0
+        },
+        "all_explicit_equality_candidates": {
+          "candidate_rank": 43,
+          "zero_dim": 9,
+          "classified_zero_dimension_by_principal_cosines": 5,
+          "unclassified_zero_dimension_by_principal_cosines": 4,
+          "contains_zero_space_tol": false,
+          "max_zero_vector_residual_norm": 0.7071067811865475,
+          "mean_zero_vector_residual_norm": 0.6285393610547089,
+          "principal_cosines": [
+            1.0,
+            1.0,
+            1.0,
+            0.9999999999999998,
+            0.9999999999999997,
+            1.2105004388597515e-16,
+            9.015952892878499e-17,
+            2.3857272994862765e-17,
+            0.0
+          ],
+          "min_principal_cosine": 0.0,
+          "max_principal_sine": 1.0
+        }
+      },
+      "candidate_rayleigh_checks": {
+        "phase": {
+          "rank": 1,
+          "rayleigh_min": 0.0,
+          "rayleigh_max": 0.0,
+          "rayleigh_abs_max": 0.0
+        },
+        "local": {
+          "rank": 42,
+          "rayleigh_min": -1.0000000000000002,
+          "rayleigh_max": -0.5,
+          "rayleigh_abs_max": 1.0000000000000002
+        },
+        "core": {
+          "rank": 2,
+          "rayleigh_min": -0.9999999999999998,
+          "rayleigh_max": 0.0,
+          "rayleigh_abs_max": 0.9999999999999998
+        }
+      },
+      "classified_zero_modes_by_explicit_candidates": false,
+      "classified_dimension_numerical": 5,
+      "unclassified_dimension_numerical": 4,
+      "caveat": "Local numerical tangent-space containment only; not a global equality classification or proof."
+    },
+    "product_projection": {
+      "name": "product_projection",
+      "gap": -2.220446049250313e-16,
+      "normalized_gap": -2.2204460492503136e-16,
+      "real_sphere_tangent_dim": 119,
+      "zero_count_tol": 13,
+      "negative_count_tol": 106,
+      "positive_count_tol": 0,
+      "eigenvalue_min": -2.0,
+      "eigenvalue_max": 0.0,
+      "zero_eigenvalues": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "candidate_reports": {
+        "phase_only": {
+          "candidate_rank": 1,
+          "zero_dim": 13,
+          "classified_zero_dimension_by_principal_cosines": 1,
+          "unclassified_zero_dimension_by_principal_cosines": 12,
+          "contains_zero_space_tol": false,
+          "max_zero_vector_residual_norm": 0.9999999999999999,
+          "mean_zero_vector_residual_norm": 0.9230769230769229,
+          "principal_cosines": [
+            1.0
+          ],
+          "min_principal_cosine": 1.0,
+          "max_principal_sine": 0.0
+        },
+        "local_left_right_product_unitaries": {
+          "candidate_rank": 32,
+          "zero_dim": 13,
+          "classified_zero_dimension_by_principal_cosines": 13,
+          "unclassified_zero_dimension_by_principal_cosines": 0,
+          "contains_zero_space_tol": true,
+          "max_zero_vector_residual_norm": 1.5700924586837752e-16,
+          "mean_zero_vector_residual_norm": 1.4493161157081003e-16,
+          "principal_cosines": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9999999999999999
+          ],
+          "min_principal_cosine": 0.9999999999999999,
+          "max_principal_sine": 1.4901161193847656e-08
+        },
+        "phase_plus_local_unitaries": {
+          "candidate_rank": 32,
+          "zero_dim": 13,
+          "classified_zero_dimension_by_principal_cosines": 13,
+          "unclassified_zero_dimension_by_principal_cosines": 0,
+          "contains_zero_space_tol": true,
+          "max_zero_vector_residual_norm": 2.220446049250313e-16,
+          "mean_zero_vector_residual_norm": 1.6201196579581243e-16,
+          "principal_cosines": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min_principal_cosine": 1.0,
+          "max_principal_sine": 0.0
+        },
+        "named_core_family_diagnostics": {
+          "candidate_rank": 2,
+          "zero_dim": 13,
+          "classified_zero_dimension_by_principal_cosines": 1,
+          "unclassified_zero_dimension_by_principal_cosines": 12,
+          "contains_zero_space_tol": false,
+          "max_zero_vector_residual_norm": 0.9999999999999999,
+          "mean_zero_vector_residual_norm": 0.9230769230769229,
+          "principal_cosines": [
+            1.0,
+            0.0
+          ],
+          "min_principal_cosine": 0.0,
+          "max_principal_sine": 1.0
+        },
+        "all_explicit_equality_candidates": {
+          "candidate_rank": 33,
+          "zero_dim": 13,
+          "classified_zero_dimension_by_principal_cosines": 13,
+          "unclassified_zero_dimension_by_principal_cosines": 0,
+          "contains_zero_space_tol": true,
+          "max_zero_vector_residual_norm": 2.220446049250313e-16,
+          "mean_zero_vector_residual_norm": 1.6201196579581243e-16,
+          "principal_cosines": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min_principal_cosine": 1.0,
+          "max_principal_sine": 0.0
+        }
+      },
+      "candidate_rayleigh_checks": {
+        "phase": {
+          "rank": 1,
+          "rayleigh_min": 0.0,
+          "rayleigh_max": 0.0,
+          "rayleigh_abs_max": 0.0
+        },
+        "local": {
+          "rank": 32,
+          "rayleigh_min": -1.0000000000000002,
+          "rayleigh_max": 0.0,
+          "rayleigh_abs_max": 1.0000000000000002
+        },
+        "core": {
+          "rank": 2,
+          "rayleigh_min": -0.9999999999999998,
+          "rayleigh_max": 0.0,
+          "rayleigh_abs_max": 0.9999999999999998
+        }
+      },
+      "classified_zero_modes_by_explicit_candidates": true,
+      "classified_dimension_numerical": 13,
+      "unclassified_dimension_numerical": 0,
+      "caveat": "Local numerical tangent-space containment only; not a global equality classification or proof."
+    }
+  },
+  "success_condition_met": false,
+  "fail_closed_caveat": "Even complete local containment of zero eigenspaces in explicit candidates is not a global proof of the inequality/equality set."
+}

@@ -1,0 +1,365 @@
+{
+  "best_overall": {
+    "eigvals": [
+      -2.0,
+      -2.0,
+      -1.0,
+      0.0
+    ],
+    "gap_minus_lambda_max": 0.0,
+    "hermitian_residual_fro": 0.0,
+    "lambda_max": 0.0,
+    "name": "traceless_diagonal_E00_minus_E11",
+    "reconstructed_gap": 0.0,
+    "reconstructed_leading_singular_values": [
+      0.7071067811865476,
+      0.7071067811865476,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "reconstructed_rank_tol_1e_10": 2,
+    "top_eigenvector_coeffs": [
+      [
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -0.7071067811865475,
+        0.0
+      ]
+    ],
+    "witness_gap": 0.0,
+    "witness_leading_singular_values": [
+      0.7071067811865475,
+      0.7071067811865475,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "witness_rank_tol_1e_10": 2,
+    "witness_tr1_fro2": 0.9999999999999998,
+    "witness_tr2_fro2": 0.9999999999999998,
+    "witness_trace_abs2": 0.0
+  },
+  "claim": "PCL: every rank-two support compression of Phi is negative semidefinite",
+  "elapsed_sec": 3.2028965950012207,
+  "equality_regressions": [
+    {
+      "eigvals": [
+        -2.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "gap_minus_lambda_max": 0.0,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": 0.0,
+      "name": "traceless_diagonal_E00_minus_E11",
+      "reconstructed_gap": 0.0,
+      "reconstructed_leading_singular_values": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.0
+        ]
+      ],
+      "witness_gap": 0.0,
+      "witness_leading_singular_values": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "witness_rank_tol_1e_10": 2,
+      "witness_tr1_fro2": 0.9999999999999998,
+      "witness_tr2_fro2": 0.9999999999999998,
+      "witness_trace_abs2": 0.0
+    },
+    {
+      "eigvals": [
+        -1.0,
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "gap_minus_lambda_max": 4.440892098500626e-16,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": 0.0,
+      "name": "product_projection_P2_tensor_00",
+      "reconstructed_gap": 4.440892098500626e-16,
+      "reconstructed_leading_singular_values": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.0
+        ]
+      ],
+      "witness_gap": -2.220446049250313e-16,
+      "witness_leading_singular_values": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "witness_rank_tol_1e_10": 2,
+      "witness_tr1_fro2": 1.9999999999999996,
+      "witness_tr2_fro2": 0.9999999999999998,
+      "witness_trace_abs2": 1.9999999999999996
+    },
+    {
+      "eigvals": [
+        -1.0,
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "gap_minus_lambda_max": 4.440892098500626e-16,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": 0.0,
+      "name": "LOOP-0002_phase_absorbed_equality",
+      "reconstructed_gap": 4.440892098500626e-16,
+      "reconstructed_leading_singular_values": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "witness_gap": -0.9999999999999998,
+      "witness_leading_singular_values": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "witness_rank_tol_1e_10": 2,
+      "witness_tr1_fro2": 0.9999999999999998,
+      "witness_tr2_fro2": 0.0,
+      "witness_trace_abs2": 0.0
+    }
+  ],
+  "numpy_version": "2.3.5",
+  "optimization": {
+    "best": {
+      "eigvals": [
+        -1.9817358960555636,
+        -1.9572300022287812,
+        -1.4007160524346003,
+        -0.029702848702690826
+      ],
+      "gap_minus_lambda_max": -9.71445146547012e-16,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": -0.029702848702690826,
+      "name": null,
+      "nit": 20,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "optimizer_success": false,
+      "reconstructed_gap": -0.029702848702691798,
+      "reconstructed_leading_singular_values": [
+        0.7507465819409124,
+        0.660590319111654,
+        1.0459297021377094e-16,
+        6.57699495835923e-17,
+        5.4719377628901344e-17,
+        4.231960498241952e-17,
+        3.631031913582114e-17,
+        3.2536949276498084e-17
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "restart": 0,
+      "top_eigenvector_coeffs": [
+        [
+          -0.5589364823314393,
+          0.0
+        ],
+        [
+          -0.003740851133831269,
+          0.4174263154666429
+        ],
+        [
+          0.23896973698437524,
+          0.26217188516630996
+        ],
+        [
+          -0.4472605339415554,
+          0.43295342488536803
+        ]
+      ]
+    },
+    "elapsed_sec": 3.1606411933898926,
+    "maxiter": 20,
+    "records": [
+      {
+        "lambda_max": -0.029702848702690826,
+        "nit": 20,
+        "optimizer_message": "Maximum number of iterations has been exceeded.",
+        "optimizer_success": false,
+        "reconstructed_gap": -0.029702848702691798,
+        "restart": 0
+      },
+      {
+        "lambda_max": -0.04926880540567214,
+        "nit": 20,
+        "optimizer_message": "Maximum number of iterations has been exceeded.",
+        "optimizer_success": false,
+        "reconstructed_gap": -0.04926880540567202,
+        "restart": 1
+      }
+    ],
+    "restarts": 2,
+    "scipy": true,
+    "seed": 5022
+  },
+  "platform": "Linux-6.17.0-1023-oem-x86_64-with-glibc2.39",
+  "positive_robust_tol_1e_8": false,
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:16:10) [GCC 11.2.0]",
+  "random_search": {
+    "best": {
+      "eigvals": [
+        -1.6902155607556106,
+        -1.553340388006646,
+        -1.5108383147145055,
+        -1.1396685356731902
+      ],
+      "gap_minus_lambda_max": -6.661338147750939e-16,
+      "hermitian_residual_fro": 0.0,
+      "iter": 16,
+      "lambda_max": -1.1396685356731902,
+      "name": null,
+      "reconstructed_gap": -1.1396685356731908,
+      "reconstructed_leading_singular_values": [
+        0.8664330503575883,
+        0.4992932697804421,
+        9.252558667501209e-17,
+        6.40897165105743e-17,
+        5.20676370150375e-17,
+        4.3740539252899245e-17,
+        3.705530541168928e-17,
+        2.941832136132884e-17
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          -0.5321734193529433,
+          0.0
+        ],
+        [
+          0.514489722098345,
+          0.0651581674890747
+        ],
+        [
+          0.4670532806372515,
+          -0.33866904912537454
+        ],
+        [
+          0.04905052355987167,
+          -0.33556630514374874
+        ]
+      ]
+    },
+    "elapsed_sec": 0.03793168067932129,
+    "positive_count_tol_1e_10": 0,
+    "samples": 100,
+    "seed": 5005
+  },
+  "scipy_available": true,
+  "script": "LOOP-0005_pcl_compression_search.py",
+  "seed": 5005,
+  "self_check_adjoint": {
+    "quadratic_abs_error": 2.2737367544323206e-13,
+    "sesquilinear_abs_error": 2.0097183471152322e-14
+  }
+}

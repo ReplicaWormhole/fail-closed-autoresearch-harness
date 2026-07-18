@@ -1,0 +1,413 @@
+{
+  "best_overall": {
+    "eigvals": [
+      -2.0,
+      -2.0,
+      -1.0,
+      0.0
+    ],
+    "gap_minus_lambda_max": 0.0,
+    "hermitian_residual_fro": 0.0,
+    "lambda_max": 0.0,
+    "name": "traceless_diagonal_E00_minus_E11",
+    "reconstructed_gap": 0.0,
+    "reconstructed_leading_singular_values": [
+      0.7071067811865476,
+      0.7071067811865476,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "reconstructed_rank_tol_1e_10": 2,
+    "top_eigenvector_coeffs": [
+      [
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -0.7071067811865475,
+        0.0
+      ]
+    ],
+    "witness_gap": 0.0,
+    "witness_leading_singular_values": [
+      0.7071067811865475,
+      0.7071067811865475,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "witness_rank_tol_1e_10": 2,
+    "witness_tr1_fro2": 0.9999999999999998,
+    "witness_tr2_fro2": 0.9999999999999998,
+    "witness_trace_abs2": 0.0
+  },
+  "claim": "PCL: every rank-two support compression of Phi is negative semidefinite",
+  "elapsed_sec": 88.37829041481018,
+  "equality_regressions": [
+    {
+      "eigvals": [
+        -2.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "gap_minus_lambda_max": 0.0,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": 0.0,
+      "name": "traceless_diagonal_E00_minus_E11",
+      "reconstructed_gap": 0.0,
+      "reconstructed_leading_singular_values": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.0
+        ]
+      ],
+      "witness_gap": 0.0,
+      "witness_leading_singular_values": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "witness_rank_tol_1e_10": 2,
+      "witness_tr1_fro2": 0.9999999999999998,
+      "witness_tr2_fro2": 0.9999999999999998,
+      "witness_trace_abs2": 0.0
+    },
+    {
+      "eigvals": [
+        -1.0,
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "gap_minus_lambda_max": 4.440892098500626e-16,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": 0.0,
+      "name": "product_projection_P2_tensor_00",
+      "reconstructed_gap": 4.440892098500626e-16,
+      "reconstructed_leading_singular_values": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.0
+        ]
+      ],
+      "witness_gap": -2.220446049250313e-16,
+      "witness_leading_singular_values": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "witness_rank_tol_1e_10": 2,
+      "witness_tr1_fro2": 1.9999999999999996,
+      "witness_tr2_fro2": 0.9999999999999998,
+      "witness_trace_abs2": 1.9999999999999996
+    },
+    {
+      "eigvals": [
+        -1.0,
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "gap_minus_lambda_max": 4.440892098500626e-16,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": 0.0,
+      "name": "LOOP-0002_phase_absorbed_equality",
+      "reconstructed_gap": 4.440892098500626e-16,
+      "reconstructed_leading_singular_values": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.7071067811865475,
+          0.0
+        ]
+      ],
+      "witness_gap": -2.220446049250313e-16,
+      "witness_leading_singular_values": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "witness_rank_tol_1e_10": 2,
+      "witness_tr1_fro2": 0.9999999999999998,
+      "witness_tr2_fro2": 1.9999999999999996,
+      "witness_trace_abs2": 1.9999999999999996
+    }
+  ],
+  "numpy_version": "2.3.5",
+  "optimization": {
+    "best": {
+      "eigvals": [
+        -1.9999999999999658,
+        -1.9999999999999571,
+        -1.1506878160660161,
+        -8.4668383415476e-14
+      ],
+      "gap_minus_lambda_max": -3.7470027081099033e-16,
+      "hermitian_residual_fro": 0.0,
+      "lambda_max": -8.4668383415476e-14,
+      "name": null,
+      "nit": 130,
+      "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+      "optimizer_success": false,
+      "reconstructed_gap": -8.504308368628699e-14,
+      "reconstructed_leading_singular_values": [
+        0.707106782126664,
+        0.7071067802464306,
+        1.1256483825142422e-16,
+        5.884526924686574e-17,
+        4.710832827433222e-17,
+        3.943200374175443e-17,
+        3.3856546702904264e-17,
+        2.712562543909435e-17
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "restart": 5,
+      "top_eigenvector_coeffs": [
+        [
+          0.2766548152519944,
+          -0.0
+        ],
+        [
+          -0.3426320581435818,
+          0.5532317646568742
+        ],
+        [
+          -0.22645781395700093,
+          -0.6100647284749966
+        ],
+        [
+          -0.2711909835323709,
+          -0.054711393000995284
+        ]
+      ]
+    },
+    "elapsed_sec": 86.87164235115051,
+    "maxiter": 200,
+    "records": [
+      {
+        "lambda_max": -1.6106712318053606e-13,
+        "nit": 143,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -1.6231460620019789e-13,
+        "restart": 0
+      },
+      {
+        "lambda_max": -1.7609280679928502e-13,
+        "nit": 154,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -1.7763568394002505e-13,
+        "restart": 1
+      },
+      {
+        "lambda_max": -6.011533772946193e-13,
+        "nit": 103,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -6.017408793468348e-13,
+        "restart": 2
+      },
+      {
+        "lambda_max": -5.736371969068069e-13,
+        "nit": 157,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -5.74207348336131e-13,
+        "restart": 3
+      },
+      {
+        "lambda_max": -3.5843946761442494e-13,
+        "nit": 109,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -3.590461261637756e-13,
+        "restart": 4
+      },
+      {
+        "lambda_max": -8.4668383415476e-14,
+        "nit": 130,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -8.504308368628699e-14,
+        "restart": 5
+      },
+      {
+        "lambda_max": -2.0355538679324783e-13,
+        "nit": 190,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -2.0405899192610377e-13,
+        "restart": 6
+      },
+      {
+        "lambda_max": -1.626760575204611e-12,
+        "nit": 133,
+        "optimizer_message": "Desired error not necessarily achieved due to precision loss.",
+        "optimizer_success": false,
+        "reconstructed_gap": -1.6273649094955545e-12,
+        "restart": 7
+      }
+    ],
+    "restarts": 8,
+    "scipy": true,
+    "seed": 5022
+  },
+  "platform": "Linux-6.17.0-1023-oem-x86_64-with-glibc2.39",
+  "positive_robust_tol_1e_8": false,
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:16:10) [GCC 11.2.0]",
+  "random_search": {
+    "best": {
+      "eigvals": [
+        -1.771492703728363,
+        -1.5983975168326383,
+        -1.5125477296006746,
+        -1.047205640060712
+      ],
+      "gap_minus_lambda_max": 4.440892098500626e-16,
+      "hermitian_residual_fro": 0.0,
+      "iter": 594,
+      "lambda_max": -1.047205640060712,
+      "name": null,
+      "reconstructed_gap": -1.0472056400607115,
+      "reconstructed_leading_singular_values": [
+        0.9293504206546913,
+        0.36919885648380296,
+        1.0906318029746417e-16,
+        5.790376415420148e-17,
+        4.586787479004418e-17,
+        3.682701913397537e-17,
+        3.026831742921818e-17,
+        2.3851088440847768e-17
+      ],
+      "reconstructed_rank_tol_1e_10": 2,
+      "top_eigenvector_coeffs": [
+        [
+          0.39347595291529613,
+          -0.0
+        ],
+        [
+          0.2371373720766936,
+          0.22096839199864707
+        ],
+        [
+          0.06886502234940778,
+          -0.7667234287959686
+        ],
+        [
+          0.10748472390551507,
+          0.3687212192681833
+        ]
+      ]
+    },
+    "elapsed_sec": 1.5028150081634521,
+    "positive_count_tol_1e_10": 0,
+    "samples": 5000,
+    "seed": 5005
+  },
+  "scipy_available": true,
+  "script": "LOOP-0005_pcl_compression_search.py",
+  "seed": 5005,
+  "self_check_adjoint": {
+    "quadratic_abs_error": 2.2737367544323206e-13,
+    "sesquilinear_abs_error": 2.0097183471152322e-14
+  }
+}

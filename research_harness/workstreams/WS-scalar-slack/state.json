@@ -1,0 +1,9 @@
+{
+  "workstream": "WS-scalar-slack",
+  "goal": "G1",
+  "state": "active",
+  "last_updated": "2026-06-03T21:10:12+02:00",
+  "latest_loop": "LOOP-0013",
+  "review_status": "accepted_with_caveats_fail_closed",
+  "material_progress_since_last_escalation": false
+}

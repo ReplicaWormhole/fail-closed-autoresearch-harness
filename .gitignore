@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.stdout.log
+*.aux
+*.log
+*.out
+*.pdf
+*.npz
+.hermes-tmp.*

@@ -1,0 +1,241 @@
+{
+  "examples": {
+    "product": {
+      "D2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.0
+          },
+          {
+            "im": 0.0,
+            "re": -1.0
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": -1.0
+          },
+          {
+            "im": 0.0,
+            "re": 0.0
+          }
+        ]
+      ],
+      "M2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.5
+          },
+          {
+            "im": 0.0,
+            "re": -0.5
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": -0.5
+          },
+          {
+            "im": 0.0,
+            "re": 0.5
+          }
+        ]
+      ],
+      "c": {
+        "im": 0.0,
+        "re": -1.0
+      },
+      "delta": 0.0,
+      "det_D": -1.0,
+      "eig_D2": [
+        -1.0,
+        1.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "formula_error": 0.0,
+      "left_K12": {
+        "im": -0.0,
+        "re": -0.0
+      },
+      "naive_col_wedge_bilinear": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "naive_row_wedge_bilinear": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "right_K12": {
+        "im": -0.0,
+        "re": -1.0
+      },
+      "t1": {
+        "im": 0.0,
+        "re": 1.0
+      },
+      "t2": {
+        "im": 0.0,
+        "re": 1.0
+      },
+      "trace_update": 1.0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "traceless": {
+      "D2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.0
+          },
+          {
+            "im": 0.0,
+            "re": 0.0
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": 0.0
+          },
+          {
+            "im": 0.0,
+            "re": 0.0
+          }
+        ]
+      ],
+      "M2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.5
+          },
+          {
+            "im": 0.0,
+            "re": 0.5
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": 0.5
+          },
+          {
+            "im": 0.0,
+            "re": 0.5
+          }
+        ]
+      ],
+      "c": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "delta": 0.0,
+      "det_D": 0.0,
+      "eig_D2": [
+        0.0,
+        0.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "formula_error": 0.0,
+      "left_K12": {
+        "im": -0.0,
+        "re": -0.0
+      },
+      "naive_col_wedge_bilinear": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "naive_row_wedge_bilinear": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "right_K12": {
+        "im": -0.0,
+        "re": -0.0
+      },
+      "t1": {
+        "im": 0.0,
+        "re": 1.0
+      },
+      "t2": {
+        "im": 0.0,
+        "re": 1.0
+      },
+      "trace_update": 0.0,
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  "local_optimization_summary": {
+    "best_delta": [
+      6.455059043026971e-13,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 120,
+        "start": 7,
+        "success": false
+      }
+    ],
+    "scipy_available": true,
+    "starts": 8
+  },
+  "random_summary": {
+    "max_naive_wedge_bilinear_mismatch": 0.295153648209067,
+    "max_one_pair_wedge_diag_error": 1.5543122344752192e-15,
+    "max_trace_update_formula_error": 8.881784197001252e-16,
+    "min_delta": [
+      1.7774468279460423,
+      3505
+    ],
+    "min_det_D": [
+      1.552491745021106,
+      3505
+    ],
+    "samples": 5000
+  },
+  "seed": 8008,
+  "sparse_coordinate_summary": {
+    "min_delta": [
+      0.0,
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "min_det_D": [
+      -1.0,
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "negative_det_D_count": 48,
+    "total": 14400,
+    "zero_delta_count": 264,
+    "zero_delta_with_negative_det_D_count": 48
+  },
+  "status": "probe_not_proof"
+}

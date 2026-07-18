@@ -1,0 +1,14 @@
+{
+  "workstream": "WS-literature-and-related-inequalities",
+  "goal": "G5",
+  "state": "in_progress",
+  "last_updated": "2026-06-03T21:10:12+02:00",
+  "latest_loop": "LOOP-0013",
+  "review_status": "accepted_with_caveats_fail_closed",
+  "material_progress_since_last_escalation": true,
+  "external_verification": {
+    "arxiv_2507_18278": "retrieved_and_verified_source_hypotheses",
+    "primary_lane_report": "research_harness/adversarial_reviews/LOOP-0013/literature_related_inequalities_lane.md",
+    "workstream_map": "related_inequality_map_LOOP-0013.md"
+  }
+}

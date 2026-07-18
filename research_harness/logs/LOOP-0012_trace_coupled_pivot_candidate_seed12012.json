@@ -1,0 +1,514 @@
+{
+  "loop": "LOOP-0012",
+  "lane": "trace-coupled full-PCL Schur/LDL candidate diagnostics",
+  "claim": "CLAIM-0001 / U-0002 Full PCL certificate",
+  "success_condition_met": false,
+  "D_only_route_status": "explicitly rejected; D pivot/minor positivity is false on controls/coordinate cases",
+  "trace_coupled_schur_formula": "For pivot i with R=complement, m=M_ii=D_ii+(1/2)|t_i|^2 and c=M_Ri=D_Ri+(1/2)conj(t_R)t_i, carry the update in S_R=M_RR-c c^*/m.  Do not replace this by a Schur complement of D.",
+  "candidate_next_lemma": "Find an invariant choice of positive M principal pivot, or prove all principal minors det(M_S)=det(D_S)+(1/2)t_S^T adj(D_S)conj(t_S) are nonnegative by trace-coupled Gram/SOS identities.",
+  "controls": [
+    {
+      "label": "product_projection_support_00_10",
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "eig_D": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "M_pivots": {
+        "nonnegative_sequence_count": 12,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 12,
+        "best_sequence": {
+          "perm": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "pivots": [
+            0.5,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        },
+        "worst_sequence": {
+          "perm": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "pivots": [
+            0.5,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        }
+      },
+      "D_pivots": {
+        "nonnegative_sequence_count": 0,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 24,
+        "best_sequence": null,
+        "worst_sequence": null
+      },
+      "D_negative_direction_trace_repair": {
+        "min_eig_D": -1.0,
+        "D_min_direction_D_rayleigh": -0.9999999999999998,
+        "trace_update_on_D_min_direction": 0.9999999999999998,
+        "M_rayleigh_same_direction": 0.0,
+        "repair_margin_same_direction": 0.0
+      }
+    },
+    {
+      "label": "diagonal_traceless_support_00_11",
+      "eig_M": [
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "eig_D": [
+        0.0,
+        0.0,
+        2.0,
+        2.0
+      ],
+      "M_pivots": {
+        "nonnegative_sequence_count": 12,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 12,
+        "best_sequence": {
+          "perm": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "pivots": [
+            0.5,
+            2.0,
+            2.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        },
+        "worst_sequence": {
+          "perm": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "pivots": [
+            0.5,
+            2.0,
+            2.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        }
+      },
+      "D_pivots": {
+        "nonnegative_sequence_count": 0,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 24,
+        "best_sequence": null,
+        "worst_sequence": null
+      },
+      "D_negative_direction_trace_repair": {
+        "min_eig_D": 0.0,
+        "D_min_direction_D_rayleigh": 0.0,
+        "trace_update_on_D_min_direction": 0.5,
+        "M_rayleigh_same_direction": 0.5,
+        "repair_margin_same_direction": 0.5
+      }
+    },
+    {
+      "label": "right_product_support_00_01",
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "eig_D": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "M_pivots": {
+        "nonnegative_sequence_count": 12,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 12,
+        "best_sequence": {
+          "perm": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "pivots": [
+            0.5,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        },
+        "worst_sequence": {
+          "perm": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "pivots": [
+            0.5,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        }
+      },
+      "D_pivots": {
+        "nonnegative_sequence_count": 0,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 24,
+        "best_sequence": null,
+        "worst_sequence": null
+      },
+      "D_negative_direction_trace_repair": {
+        "min_eig_D": -1.0,
+        "D_min_direction_D_rayleigh": -0.9999999999999998,
+        "trace_update_on_D_min_direction": 0.9999999999999998,
+        "M_rayleigh_same_direction": 0.0,
+        "repair_margin_same_direction": 0.0
+      }
+    },
+    {
+      "label": "coordinate_D_negative_repaired_00_01_vs_00_10",
+      "eig_M": [
+        0.5,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "eig_D": [
+        0.0,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "M_pivots": {
+        "nonnegative_sequence_count": 24,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 0,
+        "best_sequence": {
+          "perm": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "pivots": [
+            2.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "min_pivot": 0.5
+        },
+        "worst_sequence": {
+          "perm": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "pivots": [
+            0.5,
+            1.0,
+            1.0,
+            2.0
+          ],
+          "min_pivot": 0.5
+        }
+      },
+      "D_pivots": {
+        "nonnegative_sequence_count": 6,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 18,
+        "best_sequence": {
+          "perm": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "pivots": [
+            2.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        },
+        "worst_sequence": {
+          "perm": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "pivots": [
+            1.0,
+            1.0,
+            2.0,
+            0.0
+          ],
+          "min_pivot": 0.0
+        }
+      },
+      "D_negative_direction_trace_repair": {
+        "min_eig_D": 0.0,
+        "D_min_direction_D_rayleigh": 0.0,
+        "trace_update_on_D_min_direction": 0.5,
+        "M_rayleigh_same_direction": 0.5,
+        "repair_margin_same_direction": 0.5
+      }
+    }
+  ],
+  "coordinate_scan": {
+    "total_pairs": 14400,
+    "M_no_nonnegative_pivot_order": 0,
+    "D_no_nonnegative_pivot_order": 120,
+    "M_negative_eig_count": 0,
+    "D_negative_eig_count": 48,
+    "worst_M_min_eig": 0.0,
+    "worst_D_min_eig": -1.0,
+    "examples_D_rejected": [
+      {
+        "P": [
+          0,
+          1
+        ],
+        "Q": [
+          0,
+          1
+        ],
+        "min_eig_D": -1.0,
+        "D_pivots": {
+          "nonnegative_sequence_count": 0,
+          "negative_sequence_count": 0,
+          "singular_or_zero_sequence_count": 24,
+          "best_sequence": null,
+          "worst_sequence": null
+        },
+        "trace_repair": {
+          "min_eig_D": -1.0,
+          "D_min_direction_D_rayleigh": -0.9999999999999998,
+          "trace_update_on_D_min_direction": 0.9999999999999998,
+          "M_rayleigh_same_direction": 0.0,
+          "repair_margin_same_direction": 0.0
+        }
+      },
+      {
+        "P": [
+          0,
+          2
+        ],
+        "Q": [
+          0,
+          2
+        ],
+        "min_eig_D": -1.0,
+        "D_pivots": {
+          "nonnegative_sequence_count": 0,
+          "negative_sequence_count": 0,
+          "singular_or_zero_sequence_count": 24,
+          "best_sequence": null,
+          "worst_sequence": null
+        },
+        "trace_repair": {
+          "min_eig_D": -1.0,
+          "D_min_direction_D_rayleigh": -0.9999999999999998,
+          "trace_update_on_D_min_direction": 0.9999999999999998,
+          "M_rayleigh_same_direction": 0.0,
+          "repair_margin_same_direction": 0.0
+        }
+      },
+      {
+        "P": [
+          0,
+          3
+        ],
+        "Q": [
+          0,
+          3
+        ],
+        "min_eig_D": -1.0,
+        "D_pivots": {
+          "nonnegative_sequence_count": 0,
+          "negative_sequence_count": 0,
+          "singular_or_zero_sequence_count": 24,
+          "best_sequence": null,
+          "worst_sequence": null
+        },
+        "trace_repair": {
+          "min_eig_D": -1.0,
+          "D_min_direction_D_rayleigh": -0.9999999999999998,
+          "trace_update_on_D_min_direction": 0.9999999999999998,
+          "M_rayleigh_same_direction": 0.0,
+          "repair_margin_same_direction": 0.0
+        }
+      },
+      {
+        "P": [
+          0,
+          4
+        ],
+        "Q": [
+          0,
+          4
+        ],
+        "min_eig_D": -1.0,
+        "D_pivots": {
+          "nonnegative_sequence_count": 0,
+          "negative_sequence_count": 0,
+          "singular_or_zero_sequence_count": 24,
+          "best_sequence": null,
+          "worst_sequence": null
+        },
+        "trace_repair": {
+          "min_eig_D": -1.0,
+          "D_min_direction_D_rayleigh": -0.9999999999999998,
+          "trace_update_on_D_min_direction": 0.9999999999999998,
+          "M_rayleigh_same_direction": 0.0,
+          "repair_margin_same_direction": 0.0
+        }
+      },
+      {
+        "P": [
+          0,
+          5
+        ],
+        "Q": [
+          0,
+          5
+        ],
+        "min_eig_D": 0.0,
+        "D_pivots": {
+          "nonnegative_sequence_count": 0,
+          "negative_sequence_count": 0,
+          "singular_or_zero_sequence_count": 24,
+          "best_sequence": null,
+          "worst_sequence": null
+        },
+        "trace_repair": {
+          "min_eig_D": 0.0,
+          "D_min_direction_D_rayleigh": 0.0,
+          "trace_update_on_D_min_direction": 0.5,
+          "M_rayleigh_same_direction": 0.5,
+          "repair_margin_same_direction": 0.5
+        }
+      }
+    ],
+    "examples_M_boundary": []
+  },
+  "random_scan": {
+    "trials": 300,
+    "M_no_nonnegative_pivot_order": 0,
+    "D_no_nonnegative_pivot_order": 0,
+    "M_negative_eig_count": 0,
+    "D_negative_eig_count": 0,
+    "worst_M_min_eig": 1.054577270164715,
+    "worst_D_min_eig": 0.974385599699062,
+    "worst_M_case": {
+      "trial": 264,
+      "M_pivots": {
+        "nonnegative_sequence_count": 24,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 0,
+        "best_sequence": {
+          "perm": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "pivots": [
+            1.4537458566027093,
+            1.4140488394853719,
+            1.54068034738967,
+            1.4740816241235977
+          ],
+          "min_pivot": 1.4140488394853719
+        },
+        "worst_sequence": {
+          "perm": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "pivots": [
+            1.4997277365046684,
+            1.5811208661345664,
+            1.4373695174639813,
+            1.3697491848956016
+          ],
+          "min_pivot": 1.3697491848956016
+        }
+      },
+      "D_pivots": {
+        "nonnegative_sequence_count": 24,
+        "negative_sequence_count": 0,
+        "singular_or_zero_sequence_count": 0,
+        "best_sequence": {
+          "perm": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "pivots": [
+            1.3627643415866673,
+            1.3392069506640962,
+            1.4596100075539602,
+            1.4463846598172514
+          ],
+          "min_pivot": 1.3392069506640962
+        },
+        "worst_sequence": {
+          "perm": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "pivots": [
+            1.458290838967255,
+            1.5073208719326674,
+            1.3732990672219316,
+            1.276362717056604
+          ],
+          "min_pivot": 1.276362717056604
+        }
+      }
+    }
+  }
+}

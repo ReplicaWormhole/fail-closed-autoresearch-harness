@@ -1,0 +1,648 @@
+{
+  "loop": "LOOP-0011",
+  "claim": "CLAIM-0001-rank-two-partial-trace",
+  "control": "diag_difference",
+  "tol": 1e-10,
+  "method": "Compared the 9-dimensional numerical Hessian zero eigenspace against LOOP-0010 prior candidates plus active 2x2 support-plane directions span{iC0, A\u2297P, iA\u2297P, P\u2297B, iP\u2297B for A,B=E01,E10}.",
+  "zero_count_tol": 9,
+  "negative_count_tol": 110,
+  "positive_count_tol": 0,
+  "eigenvalue_min": -2.0,
+  "eigenvalue_max": 0.0,
+  "zero_eigenvalues": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "candidate_reports": {
+    "LOOP0010_prior_candidates": {
+      "candidate_rank": 43,
+      "zero_dim": 9,
+      "classified_zero_dimension_by_principal_cosines": 5,
+      "unclassified_zero_dimension_by_principal_cosines": 4,
+      "contains_zero_space_tol": false,
+      "max_zero_vector_residual_norm": 0.7071067811865475,
+      "mean_zero_vector_residual_norm": 0.6285393610547089,
+      "principal_cosines": [
+        1.0,
+        1.0,
+        1.0,
+        0.9999999999999998,
+        0.9999999999999997,
+        1.2105004388597515e-16,
+        9.015952892878499e-17,
+        2.3857272994862765e-17,
+        0.0
+      ],
+      "min_principal_cosine": 0.0,
+      "max_principal_sine": 1.0
+    },
+    "expanded_support_plane_only": {
+      "candidate_rank": 9,
+      "zero_dim": 9,
+      "classified_zero_dimension_by_principal_cosines": 9,
+      "unclassified_zero_dimension_by_principal_cosines": 0,
+      "contains_zero_space_tol": true,
+      "max_zero_vector_residual_norm": 1.5700924586837752e-16,
+      "mean_zero_vector_residual_norm": 1.5700924586837752e-16,
+      "principal_cosines": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_principal_cosine": 1.0,
+      "max_principal_sine": 0.0
+    },
+    "prior_plus_expanded_support_plane": {
+      "candidate_rank": 47,
+      "zero_dim": 9,
+      "classified_zero_dimension_by_principal_cosines": 9,
+      "unclassified_zero_dimension_by_principal_cosines": 0,
+      "contains_zero_space_tol": true,
+      "max_zero_vector_residual_norm": 3.188872858294072e-16,
+      "mean_zero_vector_residual_norm": 1.888765293021274e-16,
+      "principal_cosines": [
+        1.0000000000000002,
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0,
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999998
+      ],
+      "min_principal_cosine": 0.9999999999999998,
+      "max_principal_sine": 2.1073424255447017e-08
+    },
+    "four_dim_prior_residual_target_vs_expanded": {
+      "candidate_rank": 9,
+      "zero_dim": 4,
+      "classified_zero_dimension_by_principal_cosines": 4,
+      "unclassified_zero_dimension_by_principal_cosines": 0,
+      "contains_zero_space_tol": true,
+      "max_zero_vector_residual_norm": 7.850462293418876e-17,
+      "mean_zero_vector_residual_norm": 7.850462293418876e-17,
+      "principal_cosines": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_principal_cosine": 1.0,
+      "max_principal_sine": 0.0
+    }
+  },
+  "expanded_candidate_rank": 9,
+  "expanded_candidate_kept_columns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "expanded_candidate_rayleigh": {
+    "min": 0.0,
+    "max": 0.0,
+    "abs_max": 0.0,
+    "values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "expanded_direction_support_signatures": {
+    "phase_iC0": [
+      {
+        "row": [
+          0,
+          0
+        ],
+        "col": [
+          0,
+          0
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      },
+      {
+        "row": [
+          1,
+          1
+        ],
+        "col": [
+          1,
+          1
+        ],
+        "value_real": -0.0,
+        "value_imag": -0.7071067811865475
+      }
+    ],
+    "first_active_plane_E01_real": [
+      {
+        "row": [
+          0,
+          0
+        ],
+        "col": [
+          1,
+          0
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      },
+      {
+        "row": [
+          0,
+          1
+        ],
+        "col": [
+          1,
+          1
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      }
+    ],
+    "first_active_plane_E01_imag": [
+      {
+        "row": [
+          0,
+          0
+        ],
+        "col": [
+          1,
+          0
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      },
+      {
+        "row": [
+          0,
+          1
+        ],
+        "col": [
+          1,
+          1
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      }
+    ],
+    "second_active_plane_E01_real": [
+      {
+        "row": [
+          0,
+          0
+        ],
+        "col": [
+          0,
+          1
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      },
+      {
+        "row": [
+          1,
+          0
+        ],
+        "col": [
+          1,
+          1
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      }
+    ],
+    "second_active_plane_E01_imag": [
+      {
+        "row": [
+          0,
+          0
+        ],
+        "col": [
+          0,
+          1
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      },
+      {
+        "row": [
+          1,
+          0
+        ],
+        "col": [
+          1,
+          1
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      }
+    ],
+    "first_active_plane_E10_real": [
+      {
+        "row": [
+          1,
+          0
+        ],
+        "col": [
+          0,
+          0
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      },
+      {
+        "row": [
+          1,
+          1
+        ],
+        "col": [
+          0,
+          1
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      }
+    ],
+    "first_active_plane_E10_imag": [
+      {
+        "row": [
+          1,
+          0
+        ],
+        "col": [
+          0,
+          0
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      },
+      {
+        "row": [
+          1,
+          1
+        ],
+        "col": [
+          0,
+          1
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      }
+    ],
+    "second_active_plane_E10_real": [
+      {
+        "row": [
+          0,
+          1
+        ],
+        "col": [
+          0,
+          0
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      },
+      {
+        "row": [
+          1,
+          1
+        ],
+        "col": [
+          1,
+          0
+        ],
+        "value_real": 0.7071067811865475,
+        "value_imag": 0.0
+      }
+    ],
+    "second_active_plane_E10_imag": [
+      {
+        "row": [
+          0,
+          1
+        ],
+        "col": [
+          0,
+          0
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      },
+      {
+        "row": [
+          1,
+          1
+        ],
+        "col": [
+          1,
+          0
+        ],
+        "value_real": 0.0,
+        "value_imag": 0.7071067811865475
+      }
+    ]
+  },
+  "one_parameter_rank_gap_checks": {
+    "phase_iC0": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      }
+    ],
+    "first_active_plane_E01_real": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": -4.440892098500626e-16,
+        "normalized_gap": -4.2700885562506027e-16
+      }
+    ],
+    "first_active_plane_E01_imag": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      }
+    ],
+    "second_active_plane_E01_real": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": -4.440892098500626e-16,
+        "normalized_gap": -4.2700885562506027e-16
+      }
+    ],
+    "second_active_plane_E01_imag": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      }
+    ],
+    "first_active_plane_E10_real": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": -4.440892098500626e-16,
+        "normalized_gap": -4.2700885562506027e-16
+      }
+    ],
+    "first_active_plane_E10_imag": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      }
+    ],
+    "second_active_plane_E10_real": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": -4.440892098500626e-16,
+        "normalized_gap": -4.2700885562506027e-16
+      }
+    ],
+    "second_active_plane_E10_imag": [
+      {
+        "t": 0.001,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0000009999999997,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 0.1,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0099999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": 1.0,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.9999999999999996,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      },
+      {
+        "t": -0.2,
+        "rank_tol_1e-10": 2,
+        "fro2": 1.0399999999999998,
+        "gap": 0.0,
+        "normalized_gap": 0.0
+      }
+    ]
+  },
+  "classified_all_nine_zero_modes_locally": true,
+  "classified_prior_four_residual_modes_locally": true,
+  "success_condition_met": false,
+  "fail_closed_caveat": "This is a local tangent-space classification of the numerical zero kernel. The sampled one-parameter zero-gap rays support the equality-family interpretation, but this is not a global proof of the inequality or a complete global equality classification."
+}

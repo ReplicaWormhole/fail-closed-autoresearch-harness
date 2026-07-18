@@ -1,0 +1,192 @@
+{
+  "examples": {
+    "product": {
+      "D1": 0.5,
+      "D2": 0.5,
+      "M03": {
+        "im": 0.0,
+        "re": -0.5
+      },
+      "delta": 0.0,
+      "det_D": -1.0,
+      "eig_D2": [
+        -1.0,
+        1.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "margin_D1_minus_mixed12": -0.5,
+      "margin_D2_minus_mixed21": -0.5,
+      "mixed_norm_12": 1.0,
+      "mixed_norm_21": 1.0,
+      "mixed_offdiag": {
+        "im": 0.0,
+        "re": -0.5
+      },
+      "mixed_offdiag_error": 0.0,
+      "orthogonality_U12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "orthogonality_V12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "same_pair_mismatch": 1.0,
+      "same_pair_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      }
+    },
+    "traceless": {
+      "D1": 0.5,
+      "D2": 0.5,
+      "M03": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "delta": 0.0,
+      "det_D": 0.0,
+      "eig_D2": [
+        0.0,
+        0.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "margin_D1_minus_mixed12": -1.5,
+      "margin_D2_minus_mixed21": -1.5,
+      "mixed_norm_12": 2.0,
+      "mixed_norm_21": 2.0,
+      "mixed_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "mixed_offdiag_error": 0.0,
+      "orthogonality_U12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "orthogonality_V12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "same_pair_mismatch": 0.0,
+      "same_pair_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      }
+    }
+  },
+  "interpretation": {
+    "exact_identity": "M03 equals mixed row wedges + mixed column wedges + 1/2 conjugate(t1)t2 to roundoff",
+    "failed_ansatz": "Cauchy on these mixed wedge vectors would require D1>=||W12||^2 and D2>=||W21||^2; both margins are negative on the constraint manifold",
+    "orthonormality_multipliers": "<X1,X2> and <Y1,Y2> are zero after QR; adding their multiples cannot repair negative margins on the actual constrained samples"
+  },
+  "local_optimization_summary": {
+    "best_delta": [
+      6.034130765841868e-13,
+      {
+        "delta_at_best": 6.034130765841868e-13,
+        "identity_error_at_best": 2.2887833992611187e-16,
+        "message": "Optimization terminated successfully.",
+        "nit": 109,
+        "start": 3,
+        "success": true
+      }
+    ],
+    "best_margin_D1_minus_mixed12": [
+      -1.499999999999748,
+      {
+        "delta_at_best": 0.7149530677991839,
+        "identity_error_at_best": 1.5515838457795457e-17,
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 120,
+        "start": 1,
+        "success": false
+      }
+    ],
+    "best_margin_D2_minus_mixed21": [
+      -1.4999999999998226,
+      {
+        "delta_at_best": 0.6729005702710908,
+        "identity_error_at_best": 1.3877787807814457e-17,
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 120,
+        "start": 3,
+        "success": false
+      }
+    ],
+    "maxiter": 120,
+    "scipy_available": true,
+    "starts": 6
+  },
+  "random_summary": {
+    "max_frame_orthogonality_residual": 3.4275607450141766e-16,
+    "max_mixed_offdiag_identity_error": 8.441528768080324e-17,
+    "max_same_pair_polarization_mismatch": 0.47081642102929433,
+    "min_delta": [
+      1.6516027614966962,
+      903
+    ],
+    "min_margin_D1_minus_mixed12": [
+      -0.41194477765578674,
+      648
+    ],
+    "min_margin_D2_minus_mixed21": [
+      -0.4054262460823934,
+      4397
+    ],
+    "samples": 5000
+  },
+  "seed": 9009,
+  "sparse_coordinate_summary": {
+    "max_mixed_offdiag_identity_error": 0.0,
+    "min_delta": [
+      0.0,
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "min_margin_D1_minus_mixed12": [
+      -1.5,
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ]
+      ]
+    ],
+    "min_margin_D2_minus_mixed21": [
+      -1.5,
+      [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    ],
+    "negative_margin12_count": 5260,
+    "negative_margin21_count": 5260,
+    "total": 14400
+  },
+  "status": "mixed_identity_found_but_simple_cauchy_ansatz_obstructed_not_proof"
+}

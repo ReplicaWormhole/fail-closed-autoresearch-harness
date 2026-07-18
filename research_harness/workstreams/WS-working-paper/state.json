@@ -1,0 +1,12 @@
+{
+  "workstream": "WS-working-paper",
+  "goal": "G6",
+  "state": "scaffolded",
+  "last_updated": "2026-06-03T21:10:12+02:00",
+  "latest_loop": "LOOP-0013",
+  "review_status": "accepted_with_caveats_fail_closed",
+  "material_progress_since_last_escalation": true,
+  "updated_sections": [
+    "literature_guardrail_text_source_verified_arxiv_2507_18278"
+  ]
+}

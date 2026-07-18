@@ -1,0 +1,1664 @@
+{
+  "loop": "LOOP-0011",
+  "lane": "full-PCL lift / Schur-certificate diagnostics",
+  "claim": "CLAIM-0001-rank-two-partial-trace",
+  "seed": 11011,
+  "caveat": "Numerical diagnostics only. No proof. Does not use D>=0 or det(D)>=0 as a certificate.",
+  "success_condition_met": false,
+  "aggregate_random": {
+    "trials": 250,
+    "negative_min_eig_M": 0,
+    "negative_principal_detM_cases": 0,
+    "negative_principal_detD_cases": 0,
+    "repaired_negative_D_principal_cases": 0,
+    "max_update_identity_error": 3.552715515154371e-15,
+    "random_min_eig_M_min": 1.1697749192794171,
+    "random_min_detM_min_by_size": {
+      "1": 1.2643178307437337,
+      "2": 1.8030174134343648,
+      "3": 2.6684871233818708,
+      "4": 3.940048989547342
+    },
+    "random_min_detD_min_by_size": {
+      "1": 1.1360138630142997,
+      "2": 1.6088330612392496,
+      "3": 2.3544488859003407,
+      "4": 3.4721494353828986
+    },
+    "random_schur_M_negative_splits": 0,
+    "random_schur_D_negative_splits": 0,
+    "random_pivot_M_negative_sequences": 0,
+    "random_pivot_D_negative_sequences": 0
+  },
+  "coordinate_schur_scan": {
+    "total_pairs": 14400,
+    "negative_min_eig_M": 0,
+    "negative_min_eig_D": 48,
+    "min_eig_M": 0.0,
+    "min_eig_D": -1.0,
+    "negative_detM_by_size": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "negative_detD_by_size": {
+      "1": 0,
+      "2": 48,
+      "3": 96,
+      "4": 48
+    },
+    "repaired_negative_D_by_size": {
+      "1": 0,
+      "2": 48,
+      "3": 96,
+      "4": 48
+    },
+    "M_schur_negative_splits": 0,
+    "D_schur_negative_splits": 144,
+    "M_singular_pivots": 792,
+    "D_singular_pivots": 25128,
+    "examples": [
+      {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "size": 2,
+        "worst_subset": {
+          "S": [
+            0,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      },
+      {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "size": 3,
+        "worst_subset": {
+          "S": [
+            0,
+            1,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      },
+      {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "size": 4,
+        "worst_subset": {
+          "S": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      },
+      {
+        "plane_P": [
+          0,
+          2
+        ],
+        "plane_Q": [
+          0,
+          2
+        ],
+        "size": 2,
+        "worst_subset": {
+          "S": [
+            0,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      },
+      {
+        "plane_P": [
+          0,
+          2
+        ],
+        "plane_Q": [
+          0,
+          2
+        ],
+        "size": 3,
+        "worst_subset": {
+          "S": [
+            0,
+            1,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      },
+      {
+        "plane_P": [
+          0,
+          2
+        ],
+        "plane_Q": [
+          0,
+          2
+        ],
+        "size": 4,
+        "worst_subset": {
+          "S": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      },
+      {
+        "plane_P": [
+          0,
+          3
+        ],
+        "plane_Q": [
+          0,
+          3
+        ],
+        "size": 2,
+        "worst_subset": {
+          "S": [
+            0,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      },
+      {
+        "plane_P": [
+          0,
+          3
+        ],
+        "plane_Q": [
+          0,
+          3
+        ],
+        "size": 3,
+        "worst_subset": {
+          "S": [
+            0,
+            1,
+            3
+          ],
+          "detD": -1.0,
+          "update": 1.0,
+          "detM": 0.0
+        }
+      }
+    ]
+  },
+  "controls": [
+    {
+      "label": "product_projection_support_00_10",
+      "min_eig_M": 0.0,
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_eig_D": -1.0,
+      "eig_D": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "trace_norm2": 2.0,
+      "principal_update": {
+        "1": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 0.5,
+          "min_detM": 0.5,
+          "worst_detM_subset": {
+            "S": [
+              0
+            ],
+            "detD": 0.0,
+            "update": 0.5,
+            "detM": 0.5
+          }
+        },
+        "2": {
+          "negative_detD": 1,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 1,
+          "min_detD": -1.0,
+          "min_update": 0.0,
+          "max_update": 1.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              3
+            ],
+            "detD": -1.0,
+            "update": 1.0,
+            "detM": 0.0
+          }
+        },
+        "3": {
+          "negative_detD": 2,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 2,
+          "min_detD": -1.0,
+          "min_update": 0.5,
+          "max_update": 1.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              3
+            ],
+            "detD": -1.0,
+            "update": 1.0,
+            "detM": 0.0
+          }
+        },
+        "4": {
+          "negative_detD": 1,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 1,
+          "min_detD": -1.0,
+          "min_update": 1.0,
+          "max_update": 1.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": -1.0,
+            "update": 1.0,
+            "detM": 0.0
+          }
+        },
+        "max_update_identity_error": 0.0
+      },
+      "block_schur": {
+        "counts": {
+          "M_schur_negative": 0,
+          "D_schur_negative": 3,
+          "M_singular_pivot": 3,
+          "D_singular_pivot": 8
+        },
+        "worst_by_M_schur": [
+          {
+            "S": [
+              0
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          },
+          {
+            "S": [
+              1
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": -1.0
+          },
+          {
+            "S": [
+              2
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": -1.0
+          },
+          {
+            "S": [
+              3
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          },
+          {
+            "S": [
+              0,
+              1
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          }
+        ]
+      },
+      "pivots": {
+        "M": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 12,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [
+            {
+              "perm": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                0,
+                2,
+                1,
+                3
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                1,
+                0,
+                2,
+                3
+              ],
+              "pivots": [
+                1.0,
+                0.5,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ],
+          "best_sequences": [
+            {
+              "perm": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                2,
+                3,
+                1,
+                0
+              ],
+              "pivots": [
+                1.0,
+                0.5,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ]
+        },
+        "D": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 24,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [],
+          "best_sequences": []
+        }
+      }
+    },
+    {
+      "label": "diagonal_traceless_support_00_11",
+      "min_eig_M": 0.0,
+      "eig_M": [
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "min_eig_D": 0.0,
+      "eig_D": [
+        0.0,
+        0.0,
+        2.0,
+        2.0
+      ],
+      "trace_norm2": 2.0,
+      "principal_update": {
+        "1": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 0.5,
+          "min_detM": 0.5,
+          "worst_detM_subset": {
+            "S": [
+              0
+            ],
+            "detD": 0.0,
+            "update": 0.5,
+            "detM": 0.5
+          }
+        },
+        "2": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 1.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              3
+            ],
+            "detD": 0.0,
+            "update": 0.0,
+            "detM": 0.0
+          }
+        },
+        "3": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 2.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              3
+            ],
+            "detD": 0.0,
+            "update": 0.0,
+            "detM": 0.0
+          }
+        },
+        "4": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 0.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": 0.0,
+            "update": 0.0,
+            "detM": 0.0
+          }
+        },
+        "max_update_identity_error": 0.0
+      },
+      "block_schur": {
+        "counts": {
+          "M_schur_negative": 0,
+          "D_schur_negative": 0,
+          "M_singular_pivot": 3,
+          "D_singular_pivot": 11
+        },
+        "worst_by_M_schur": [
+          {
+            "S": [
+              0
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          },
+          {
+            "S": [
+              1
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": 0.0
+          },
+          {
+            "S": [
+              2
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": 0.0
+          },
+          {
+            "S": [
+              3
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          },
+          {
+            "S": [
+              0,
+              1
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          }
+        ]
+      },
+      "pivots": {
+        "M": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 12,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [
+            {
+              "perm": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "pivots": [
+                0.5,
+                2.0,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                0,
+                2,
+                1,
+                3
+              ],
+              "pivots": [
+                0.5,
+                2.0,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                1,
+                0,
+                2,
+                3
+              ],
+              "pivots": [
+                2.0,
+                0.5,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ],
+          "best_sequences": [
+            {
+              "perm": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "pivots": [
+                0.5,
+                2.0,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "pivots": [
+                0.5,
+                2.0,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                2,
+                3,
+                1,
+                0
+              ],
+              "pivots": [
+                2.0,
+                0.5,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ]
+        },
+        "D": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 24,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [],
+          "best_sequences": []
+        }
+      }
+    },
+    {
+      "label": "right_product_support_00_01",
+      "min_eig_M": 0.0,
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_eig_D": -1.0,
+      "eig_D": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "trace_norm2": 2.0,
+      "principal_update": {
+        "1": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 0.5,
+          "min_detM": 0.5,
+          "worst_detM_subset": {
+            "S": [
+              0
+            ],
+            "detD": 0.0,
+            "update": 0.5,
+            "detM": 0.5
+          }
+        },
+        "2": {
+          "negative_detD": 1,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 1,
+          "min_detD": -1.0,
+          "min_update": 0.0,
+          "max_update": 1.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              3
+            ],
+            "detD": -1.0,
+            "update": 1.0,
+            "detM": 0.0
+          }
+        },
+        "3": {
+          "negative_detD": 2,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 2,
+          "min_detD": -1.0,
+          "min_update": 0.5,
+          "max_update": 1.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              3
+            ],
+            "detD": -1.0,
+            "update": 1.0,
+            "detM": 0.0
+          }
+        },
+        "4": {
+          "negative_detD": 1,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 1,
+          "min_detD": -1.0,
+          "min_update": 1.0,
+          "max_update": 1.0,
+          "min_detM": 0.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": -1.0,
+            "update": 1.0,
+            "detM": 0.0
+          }
+        },
+        "max_update_identity_error": 0.0
+      },
+      "block_schur": {
+        "counts": {
+          "M_schur_negative": 0,
+          "D_schur_negative": 3,
+          "M_singular_pivot": 3,
+          "D_singular_pivot": 8
+        },
+        "worst_by_M_schur": [
+          {
+            "S": [
+              0
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          },
+          {
+            "S": [
+              1
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": -1.0
+          },
+          {
+            "S": [
+              2
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": -1.0
+          },
+          {
+            "S": [
+              3
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          },
+          {
+            "S": [
+              0,
+              1
+            ],
+            "M_schur_min_eig": 0.0,
+            "D_schur_min_eig": null
+          }
+        ]
+      },
+      "pivots": {
+        "M": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 12,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [
+            {
+              "perm": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                0,
+                2,
+                1,
+                3
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                1,
+                0,
+                2,
+                3
+              ],
+              "pivots": [
+                1.0,
+                0.5,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ],
+          "best_sequences": [
+            {
+              "perm": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                2,
+                3,
+                1,
+                0
+              ],
+              "pivots": [
+                1.0,
+                0.5,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ]
+        },
+        "D": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 24,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [],
+          "best_sequences": []
+        }
+      }
+    },
+    {
+      "label": "coordinate_negative_D_repaired_LOOP0010_example",
+      "min_eig_M": 0.5,
+      "eig_M": [
+        0.5,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "min_eig_D": 0.0,
+      "eig_D": [
+        0.0,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "trace_norm2": 1.0,
+      "principal_update": {
+        "1": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 0.5,
+          "min_detM": 0.5,
+          "worst_detM_subset": {
+            "S": [
+              0
+            ],
+            "detD": 0.0,
+            "update": 0.5,
+            "detM": 0.5
+          }
+        },
+        "2": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 1.0,
+          "min_detM": 0.5,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1
+            ],
+            "detD": 0.0,
+            "update": 0.5,
+            "detM": 0.5
+          }
+        },
+        "3": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 0.0,
+          "max_update": 1.0,
+          "min_detM": 0.5,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              2
+            ],
+            "detD": 0.0,
+            "update": 0.5,
+            "detM": 0.5
+          }
+        },
+        "4": {
+          "negative_detD": 0,
+          "negative_detM": 0,
+          "repaired_negative_D_by_update": 0,
+          "min_detD": 0.0,
+          "min_update": 1.0,
+          "max_update": 1.0,
+          "min_detM": 1.0,
+          "worst_detM_subset": {
+            "S": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "detD": 0.0,
+            "update": 1.0,
+            "detM": 1.0
+          }
+        },
+        "max_update_identity_error": 0.0
+      },
+      "block_schur": {
+        "counts": {
+          "M_schur_negative": 0,
+          "D_schur_negative": 0,
+          "M_singular_pivot": 0,
+          "D_singular_pivot": 7
+        },
+        "worst_by_M_schur": [
+          {
+            "S": [
+              1
+            ],
+            "M_schur_min_eig": 0.5,
+            "D_schur_min_eig": 0.0
+          },
+          {
+            "S": [
+              2
+            ],
+            "M_schur_min_eig": 0.5,
+            "D_schur_min_eig": 0.0
+          },
+          {
+            "S": [
+              3
+            ],
+            "M_schur_min_eig": 0.5,
+            "D_schur_min_eig": 0.0
+          },
+          {
+            "S": [
+              1,
+              2
+            ],
+            "M_schur_min_eig": 0.5,
+            "D_schur_min_eig": 0.0
+          },
+          {
+            "S": [
+              1,
+              3
+            ],
+            "M_schur_min_eig": 0.5,
+            "D_schur_min_eig": 0.0
+          }
+        ]
+      },
+      "pivots": {
+        "M": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 0,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [
+            {
+              "perm": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                2.0
+              ],
+              "min_pivot": 0.5
+            },
+            {
+              "perm": [
+                0,
+                1,
+                3,
+                2
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                2.0,
+                1.0
+              ],
+              "min_pivot": 0.5
+            },
+            {
+              "perm": [
+                0,
+                2,
+                1,
+                3
+              ],
+              "pivots": [
+                0.5,
+                1.0,
+                1.0,
+                2.0
+              ],
+              "min_pivot": 0.5
+            }
+          ],
+          "best_sequences": [
+            {
+              "perm": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "pivots": [
+                2.0,
+                1.0,
+                1.0,
+                0.5
+              ],
+              "min_pivot": 0.5
+            },
+            {
+              "perm": [
+                3,
+                2,
+                0,
+                1
+              ],
+              "pivots": [
+                2.0,
+                1.0,
+                0.5,
+                1.0
+              ],
+              "min_pivot": 0.5
+            },
+            {
+              "perm": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "pivots": [
+                2.0,
+                1.0,
+                1.0,
+                0.5
+              ],
+              "min_pivot": 0.5
+            }
+          ]
+        },
+        "D": {
+          "permutations": 24,
+          "singular_or_zero_pivot": 18,
+          "negative_pivot_sequence_count": 0,
+          "worst_sequences": [
+            {
+              "perm": [
+                1,
+                2,
+                3,
+                0
+              ],
+              "pivots": [
+                1.0,
+                1.0,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                1,
+                3,
+                2,
+                0
+              ],
+              "pivots": [
+                1.0,
+                2.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                2,
+                1,
+                3,
+                0
+              ],
+              "pivots": [
+                1.0,
+                1.0,
+                2.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ],
+          "best_sequences": [
+            {
+              "perm": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "pivots": [
+                2.0,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "pivots": [
+                2.0,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            },
+            {
+              "perm": [
+                2,
+                3,
+                1,
+                0
+              ],
+              "pivots": [
+                1.0,
+                2.0,
+                1.0,
+                0.0
+              ],
+              "min_pivot": 0.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "worst_random_case": {
+    "label": "random_118",
+    "min_eig_M": 1.1697749192794171,
+    "eig_M": [
+      1.1697749192794171,
+      1.5640532062077448,
+      1.6759945581495812,
+      1.8084877253853222
+    ],
+    "min_eig_D": 1.1375655551608044,
+    "eig_D": [
+      1.1375655551608044,
+      1.4772114861187124,
+      1.5998010520430164,
+      1.8034023941750483
+    ],
+    "trace_norm2": 0.40065984304896696,
+    "principal_update": {
+      "1": {
+        "negative_detD": 0,
+        "negative_detM": 0,
+        "repaired_negative_D_by_update": 0,
+        "min_detD": 1.4386210943433024,
+        "min_update": 0.007347449343964008,
+        "max_update": 0.1263991141943553,
+        "min_detM": 1.454543641236569,
+        "worst_detM_subset": {
+          "S": [
+            0
+          ],
+          "detD": 1.447196191892605,
+          "update": 0.007347449343964008,
+          "detM": 1.454543641236569
+        }
+      },
+      "2": {
+        "negative_detD": 0,
+        "negative_detM": 0,
+        "repaired_negative_D_by_update": 0,
+        "min_detD": 2.0581477006525324,
+        "min_update": 0.03087279719921625,
+        "max_update": 0.2701360244915478,
+        "min_detM": 2.2559879821134303,
+        "worst_detM_subset": {
+          "S": [
+            0,
+            2
+          ],
+          "detD": 2.0581477006525324,
+          "update": 0.1978402814608981,
+          "detM": 2.2559879821134303
+        }
+      },
+      "3": {
+        "negative_detD": 0,
+        "negative_detM": 0,
+        "repaired_negative_D_by_update": 0,
+        "min_detD": 3.141228875689003,
+        "min_update": 0.16449503279781463,
+        "max_update": 0.4800617781055649,
+        "min_detM": 3.4823126077119375,
+        "worst_detM_subset": {
+          "S": [
+            0,
+            2,
+            3
+          ],
+          "detD": 3.141228875689003,
+          "update": 0.34108373202293485,
+          "detM": 3.4823126077119375
+        }
+      },
+      "4": {
+        "negative_detD": 0,
+        "negative_detM": 0,
+        "repaired_negative_D_by_update": 0,
+        "min_detD": 4.848168764762249,
+        "min_update": 0.6973476873698956,
+        "max_update": 0.6973476873698956,
+        "min_detM": 5.545516452132147,
+        "worst_detM_subset": {
+          "S": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detD": 4.848168764762249,
+          "update": 0.6973476873698956,
+          "detM": 5.545516452132147
+        }
+      },
+      "max_update_identity_error": 1.7763598844982927e-15
+    },
+    "block_schur": {
+      "counts": {
+        "M_schur_negative": 0,
+        "D_schur_negative": 0,
+        "M_singular_pivot": 0,
+        "D_singular_pivot": 0
+      },
+      "worst_by_M_schur": [
+        {
+          "S": [
+            1
+          ],
+          "M_schur_min_eig": 1.1831328960803122,
+          "D_schur_min_eig": 1.1474629945727752
+        },
+        {
+          "S": [
+            2
+          ],
+          "M_schur_min_eig": 1.2369537549117762,
+          "D_schur_min_eig": 1.2334565492054728
+        },
+        {
+          "S": [
+            1,
+            2
+          ],
+          "M_schur_min_eig": 1.246249662415385,
+          "D_schur_min_eig": 1.2428873328630208
+        },
+        {
+          "S": [
+            3
+          ],
+          "M_schur_min_eig": 1.2975376479823197,
+          "D_schur_min_eig": 1.2456133206444922
+        },
+        {
+          "S": [
+            1,
+            3
+          ],
+          "M_schur_min_eig": 1.311154925944711,
+          "D_schur_min_eig": 1.2520823564152477
+        }
+      ]
+    },
+    "pivots": {
+      "M": {
+        "permutations": 24,
+        "singular_or_zero_pivot": 0,
+        "negative_pivot_sequence_count": 0,
+        "worst_sequences": [
+          {
+            "perm": [
+              1,
+              2,
+              3,
+              0
+            ],
+            "pivots": [
+              1.6028603977645868,
+              1.5601156000265282,
+              1.5844072977284924,
+              1.3996604328577753
+            ],
+            "min_pivot": 1.3996604328577753
+          },
+          {
+            "perm": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "pivots": [
+              1.6028603977645868,
+              1.5918823632151307,
+              1.5527897029964421,
+              1.3996604328577753
+            ],
+            "min_pivot": 1.3996604328577753
+          },
+          {
+            "perm": [
+              2,
+              1,
+              3,
+              0
+            ],
+            "pivots": [
+              1.5650202085376577,
+              1.5978372020856157,
+              1.5844072977284922,
+              1.3996604328577753
+            ],
+            "min_pivot": 1.3996604328577753
+          }
+        ],
+        "best_sequences": [
+          {
+            "perm": [
+              0,
+              3,
+              2,
+              1
+            ],
+            "pivots": [
+              1.454543641236569,
+              1.5539007955324333,
+              1.5406986786291055,
+              1.5924809392043184
+            ],
+            "min_pivot": 1.454543641236569
+          },
+          {
+            "perm": [
+              0,
+              3,
+              1,
+              2
+            ],
+            "pivots": [
+              1.454543641236569,
+              1.5539007955324333,
+              1.5984941836835884,
+              1.5349028503314162
+            ],
+            "min_pivot": 1.454543641236569
+          },
+          {
+            "perm": [
+              0,
+              2,
+              3,
+              1
+            ],
+            "pivots": [
+              1.454543641236569,
+              1.5509936712490247,
+              1.5435865063650185,
+              1.5924809392043184
+            ],
+            "min_pivot": 1.454543641236569
+          }
+        ]
+      },
+      "D": {
+        "permutations": 24,
+        "singular_or_zero_pivot": 0,
+        "negative_pivot_sequence_count": 0,
+        "worst_sequences": [
+          {
+            "perm": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "pivots": [
+              1.5531332059425114,
+              1.5726967207819775,
+              1.4255185852916863,
+              1.3923587844295988
+            ],
+            "min_pivot": 1.3923587844295988
+          },
+          {
+            "perm": [
+              2,
+              1,
+              3,
+              0
+            ],
+            "pivots": [
+              1.4386210943433024,
+              1.5504509808010896,
+              1.5610690231526414,
+              1.3923587844295988
+            ],
+            "min_pivot": 1.3923587844295988
+          },
+          {
+            "perm": [
+              2,
+              3,
+              1,
+              0
+            ],
+            "pivots": [
+              1.4386210943433024,
+              1.5680928627301765,
+              1.543506163168913,
+              1.3923587844295988
+            ],
+            "min_pivot": 1.3923587844295988
+          }
+        ],
+        "best_sequences": [
+          {
+            "perm": [
+              2,
+              0,
+              3,
+              1
+            ],
+            "pivots": [
+              1.4386210943433024,
+              1.4306391785475867,
+              1.5262407429229112,
+              1.5433987641855111
+            ],
+            "min_pivot": 1.4306391785475867
+          },
+          {
+            "perm": [
+              2,
+              0,
+              1,
+              3
+            ],
+            "pivots": [
+              1.4386210943433024,
+              1.4306391785475867,
+              1.5504342933882702,
+              1.5193149987213892
+            ],
+            "min_pivot": 1.4306391785475867
+          },
+          {
+            "perm": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "pivots": [
+              1.5531332059425114,
+              1.4361366289713282,
+              1.4306237806621565,
+              1.5193149987213892
+            ],
+            "min_pivot": 1.4306237806621565
+          }
+        ]
+      }
+    }
+  }
+}

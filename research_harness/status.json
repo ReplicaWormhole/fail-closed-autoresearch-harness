@@ -1,0 +1,49 @@
+{
+  "active_claim": "CLAIM-0001",
+  "status": "human_steering_required",
+  "success": false,
+  "success_type": null,
+  "success_record": null,
+  "last_completed_loop": "LOOP-0013",
+  "next_loop_number": 14,
+  "loops_completed_by_autoloop": 11,
+  "max_autoloop_loops": 12,
+  "current_bottleneck": "LOOP-0013 fail-closed: central scalar/full-PCL symbolic certificate bottleneck persists. Scalar lane has exact restricted equality families with GramSlack=ExchangePenalty>0 but no universal mixed Plucker/SOS certificate; full-PCL lane has trace-coupled determinant-update identity and diagnostics but no PSD certificate for M; equality/literature uncertainty reduced but not proof-producing. Human steering requested via ESC-0001.",
+  "stop_condition": "auditor-accepted proof, auditor-accepted rank-two positive-gap counterexample, or auditor-accepted bridge-defect",
+  "reporting": "report every completed loop; success must also write research_harness/success_record.md",
+  "updated_at": "2026-06-03T21:10:12+02:00",
+  "autonomy_mode": "co_mathematician_cron_one_loop_per_tick",
+  "workspace_mode": "co_mathematician",
+  "mode_adopted_at": "2026-06-03T20:01:29+02:00",
+  "approved_goals": [
+    "G1-scalar-crossed-minor-certificate",
+    "G2-full-pcl-certificate",
+    "G3-equality-geometry",
+    "G4-certified-counterexample-search",
+    "G5-literature-and-related-inequalities",
+    "G6-working-paper-derivation-note"
+  ],
+  "active_workstreams": [
+    "WS-scalar-slack",
+    "WS-full-pcl-certificate",
+    "WS-equality-geometry",
+    "WS-literature-and-related-inequalities",
+    "WS-working-paper"
+  ],
+  "blocked_workstreams": [],
+  "dormant_workstreams": [
+    "WS-counterexample-search"
+  ],
+  "escalations_open": [
+    "ESC-0001"
+  ],
+  "human_steering_required": true,
+  "uncertainty_count": 4,
+  "failed_route_count": 6,
+  "review_policy": "persistent_multi_reviewer_fail_closed",
+  "progressive_disclosure": "dashboard_default_drilldown_on_request",
+  "native_artifacts": [
+    "research_harness/working_paper/CLAIM-0001-working-paper.md",
+    "research_harness/dashboard.md"
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "loop": "LOOP-0009",
+  "claim": "CLAIM-0001",
+  "lane": "principal-minor rank-one-update diagnostics",
+  "controls": {
+    "product_projection_support_00_10": {
+      "min_eig_M": 0.0,
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_by_size": {
+        "1": {
+          "I": [
+            0
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "trace_update_adj_term": 0.5,
+          "update_error": 0.0
+        },
+        "2": {
+          "I": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "3": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        }
+      },
+      "negative_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "max_rank_one_update_error": 0.0,
+      "examples": {
+        "repaired_size_2": {
+          "I": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "repaired_size_3": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "repaired_size_4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        }
+      }
+    },
+    "diagonal_traceless_support_00_11": {
+      "min_eig_M": 0.0,
+      "eig_M": [
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "min_by_size": {
+        "1": {
+          "I": [
+            0
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "trace_update_adj_term": 0.5,
+          "update_error": 0.0
+        },
+        "2": {
+          "I": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": 0.0,
+          "trace_update_adj_term": 0.0,
+          "update_error": 0.0
+        },
+        "3": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": 0.0,
+          "trace_update_adj_term": 0.0,
+          "update_error": 0.0
+        },
+        "4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": 0.0,
+          "trace_update_adj_term": 0.0,
+          "update_error": 0.0
+        }
+      },
+      "negative_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "max_rank_one_update_error": 0.0,
+      "examples": {}
+    },
+    "right_product_support_00_01": {
+      "min_eig_M": 0.0,
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_by_size": {
+        "1": {
+          "I": [
+            0
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "trace_update_adj_term": 0.5,
+          "update_error": 0.0
+        },
+        "2": {
+          "I": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "3": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        }
+      },
+      "negative_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "max_rank_one_update_error": 0.0,
+      "examples": {
+        "repaired_size_2": {
+          "I": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "repaired_size_3": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "repaired_size_4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        }
+      }
+    }
+  },
+  "coordinate_scan": {
+    "total_pairs": 14400,
+    "negative_pair_counts_by_size": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "min_by_size": {
+      "1": {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "I": [
+          0
+        ],
+        "detM": 0.5,
+        "detD": 0.0,
+        "trace_update_adj_term": 0.5,
+        "update_error": 0.0
+      },
+      "2": {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "I": [
+          0,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      "3": {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "I": [
+          0,
+          1,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      "4": {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "I": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      }
+    },
+    "worst_eig": {
+      "plane_P": [
+        0,
+        1
+      ],
+      "plane_Q": [
+        0,
+        1
+      ],
+      "min_eig_M": 0.0,
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_by_size": {
+        "1": {
+          "I": [
+            0
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "trace_update_adj_term": 0.5,
+          "update_error": 0.0
+        },
+        "2": {
+          "I": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "3": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        }
+      },
+      "negative_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "max_rank_one_update_error": 0.0,
+      "examples": {
+        "repaired_size_2": {
+          "I": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "repaired_size_3": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        },
+        "repaired_size_4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "trace_update_adj_term": 1.0,
+          "update_error": 0.0
+        }
+      }
+    },
+    "sample_repaired_D_by_trace_update": [
+      {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "kind": "repaired_size_2",
+        "I": [
+          0,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "kind": "repaired_size_3",
+        "I": [
+          0,
+          1,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      {
+        "plane_P": [
+          0,
+          1
+        ],
+        "plane_Q": [
+          0,
+          1
+        ],
+        "kind": "repaired_size_4",
+        "I": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      {
+        "plane_P": [
+          0,
+          2
+        ],
+        "plane_Q": [
+          0,
+          2
+        ],
+        "kind": "repaired_size_2",
+        "I": [
+          0,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      {
+        "plane_P": [
+          0,
+          2
+        ],
+        "plane_Q": [
+          0,
+          2
+        ],
+        "kind": "repaired_size_3",
+        "I": [
+          0,
+          1,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      {
+        "plane_P": [
+          0,
+          2
+        ],
+        "plane_Q": [
+          0,
+          2
+        ],
+        "kind": "repaired_size_4",
+        "I": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      {
+        "plane_P": [
+          0,
+          3
+        ],
+        "plane_Q": [
+          0,
+          3
+        ],
+        "kind": "repaired_size_2",
+        "I": [
+          0,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      },
+      {
+        "plane_P": [
+          0,
+          3
+        ],
+        "plane_Q": [
+          0,
+          3
+        ],
+        "kind": "repaired_size_3",
+        "I": [
+          0,
+          1,
+          3
+        ],
+        "detM": 0.0,
+        "detD": -1.0,
+        "trace_update_adj_term": 1.0,
+        "update_error": 0.0
+      }
+    ]
+  },
+  "random_scan": {
+    "trials": 2000,
+    "negative_frame_counts_by_size": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "min_by_size": {
+      "1": {
+        "trial": 1839,
+        "I": [
+          2
+        ],
+        "detM": 1.2084680308569111,
+        "detD": 1.0979404254648348,
+        "trace_update_adj_term": 0.11052760539207637,
+        "update_error": 1.2217525740270663e-18
+      },
+      "2": {
+        "trial": 903,
+        "I": [
+          0,
+          3
+        ],
+        "detM": 1.6516027614966962,
+        "detD": 1.581035619314158,
+        "trace_update_adj_term": 0.07056714218253843,
+        "update_error": 2.2205181958458663e-16
+      },
+      "3": {
+        "trial": 903,
+        "I": [
+          0,
+          2,
+          3
+        ],
+        "detM": 2.4529810081740915,
+        "detD": 2.289514388588103,
+        "trace_update_adj_term": 0.16346661958598796,
+        "update_error": 4.440898302961309e-16
+      },
+      "4": {
+        "trial": 903,
+        "I": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "detM": 3.7146661736564064,
+        "detD": 3.3105204361404272,
+        "trace_update_adj_term": 0.40414573751597926,
+        "update_error": 1.3215994710346141e-17
+      }
+    },
+    "worst_eig": {
+      "trial": 1266,
+      "min_eig_M": 1.0959615805361387,
+      "eig_M": [
+        1.0959615805361387,
+        1.382831537619304,
+        1.613394387324762,
+        1.6987145706670763
+      ],
+      "min_by_size": {
+        "1": {
+          "I": [
+            0
+          ],
+          "detM": 1.3743773787615692,
+          "detD": 1.2203845761699306,
+          "trace_update_adj_term": 0.15399280259163853,
+          "update_error": 2.77183968687804e-18
+        },
+        "2": {
+          "I": [
+            0,
+            1
+          ],
+          "detM": 1.9230572506903296,
+          "detD": 1.6974166276139675,
+          "trace_update_adj_term": 0.22564062307636212,
+          "update_error": 4.847753951154219e-18
+        },
+        "3": {
+          "I": [
+            0,
+            1,
+            2
+          ],
+          "detM": 2.6868998647351967,
+          "detD": 2.371043274280425,
+          "trace_update_adj_term": 0.31585659045477177,
+          "update_error": 3.692160696340493e-18
+        },
+        "4": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 4.15360849960185,
+          "detD": 3.2373754513278388,
+          "trace_update_adj_term": 0.9162330482740113,
+          "update_error": 3.554905966282565e-18
+        }
+      },
+      "negative_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "max_rank_one_update_error": 4.444129925139188e-16,
+      "examples": {}
+    },
+    "max_update_identity_error": 4.440892108477151e-15
+  },
+  "success_condition_met": false,
+  "caveat": "All results are numerical diagnostics/regressions; no principal-minor proof or certified counterexample.",
+  "elapsed_sec": 17.94458508491516
+}

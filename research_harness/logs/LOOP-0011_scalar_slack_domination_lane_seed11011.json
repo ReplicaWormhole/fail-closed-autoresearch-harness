@@ -1,0 +1,1850 @@
+{
+  "claim": "CLAIM-0001",
+  "controls": {
+    "product_LOOP9": {
+      "D1": 0.5,
+      "D1_times_D2": 0.25,
+      "D2": 0.5,
+      "M03": {
+        "im": 0.0,
+        "re": -0.5
+      },
+      "N12_times_N21": 1.0,
+      "abs_m_sq": 0.25,
+      "delta": 0.0,
+      "delta_over_Nprod": 0.0,
+      "det_D": -1.0,
+      "det_identity_residual_abs": 0.0,
+      "eig_D2": [
+        -1.0,
+        1.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "equality_test_abs_delta": 0.0,
+      "exchange_penalty_N12N21_minus_D1D2": 0.75,
+      "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+      "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+      "margin_D1_minus_mixed12": -0.5,
+      "margin_D2_minus_mixed21": -0.5,
+      "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+      "mixed_norm_12": 1.0,
+      "mixed_norm_21": 1.0,
+      "mixed_offdiag": {
+        "im": 0.0,
+        "re": -0.5
+      },
+      "mixed_offdiag_error": 0.0,
+      "normalized_gap_q_minus_corr_sq": 0.0,
+      "orthogonality_U12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "orthogonality_V12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "penalty_minus_slack_equals_negative_delta": 0.0,
+      "penalty_to_slack_ratio": 1.0,
+      "penalty_to_slack_ratio_if_positive_slack": 1.0,
+      "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+      "same_pair_mismatch": 1.0,
+      "same_pair_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "slack_minus_penalty": 0.0
+    },
+    "traceless_LOOP9": {
+      "D1": 0.5,
+      "D1_times_D2": 0.25,
+      "D2": 0.5,
+      "M03": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "N12_times_N21": 4.0,
+      "abs_m_sq": 0.25,
+      "delta": 0.0,
+      "delta_over_Nprod": 0.0,
+      "det_D": 0.0,
+      "det_identity_residual_abs": 0.0,
+      "eig_D2": [
+        0.0,
+        0.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "equality_test_abs_delta": 0.0,
+      "exchange_penalty_N12N21_minus_D1D2": 3.75,
+      "exchange_product_margin_D1D2_minus_N12N21": -3.75,
+      "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.75,
+      "margin_D1_minus_mixed12": -1.5,
+      "margin_D2_minus_mixed21": -1.5,
+      "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0625,
+      "mixed_norm_12": 2.0,
+      "mixed_norm_21": 2.0,
+      "mixed_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "mixed_offdiag_error": 0.0,
+      "normalized_gap_q_minus_corr_sq": 0.0,
+      "orthogonality_U12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "orthogonality_V12": {
+        "im": 0.0,
+        "re": 0.0
+      },
+      "penalty_minus_slack_equals_negative_delta": 0.0,
+      "penalty_to_slack_ratio": 1.0,
+      "penalty_to_slack_ratio_if_positive_slack": 1.0,
+      "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.0625,
+      "same_pair_mismatch": 0.0,
+      "same_pair_offdiag": {
+        "im": 0.0,
+        "re": 0.5
+      },
+      "slack_minus_penalty": 0.0
+    }
+  },
+  "coordinate_scan": {
+    "equality_count_abs_delta_le_1e_12": 264,
+    "equality_signature_count": 3,
+    "equality_signatures": [
+      {
+        "count": 144,
+        "examples": [
+          {
+            "U_label": "0=(0, 0), 1=(0, 1)",
+            "U_pair": [
+              0,
+              1
+            ],
+            "V_label": "4=(1, 0), 5=(1, 1)",
+            "V_pair": [
+              4,
+              5
+            ],
+            "record": {
+              "D1": 1.0,
+              "D1_times_D2": 1.0,
+              "D2": 1.0,
+              "M03": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 1.0,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                2.0
+              ],
+              "eig_M2": [
+                0.0,
+                2.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.0,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.0,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.0,
+              "margin_D1_minus_mixed12": -1.0,
+              "margin_D2_minus_mixed21": -1.0,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 1=(0, 1)",
+            "U_pair": [
+              0,
+              1
+            ],
+            "V_label": "8=(2, 0), 9=(2, 1)",
+            "V_pair": [
+              8,
+              9
+            ],
+            "record": {
+              "D1": 1.0,
+              "D1_times_D2": 1.0,
+              "D2": 1.0,
+              "M03": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 1.0,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                2.0
+              ],
+              "eig_M2": [
+                0.0,
+                2.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.0,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.0,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.0,
+              "margin_D1_minus_mixed12": -1.0,
+              "margin_D2_minus_mixed21": -1.0,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 1=(0, 1)",
+            "U_pair": [
+              0,
+              1
+            ],
+            "V_label": "12=(3, 0), 13=(3, 1)",
+            "V_pair": [
+              12,
+              13
+            ],
+            "record": {
+              "D1": 1.0,
+              "D1_times_D2": 1.0,
+              "D2": 1.0,
+              "M03": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 1.0,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                2.0
+              ],
+              "eig_M2": [
+                0.0,
+                2.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.0,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.0,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.0,
+              "margin_D1_minus_mixed12": -1.0,
+              "margin_D2_minus_mixed21": -1.0,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 2=(0, 2)",
+            "U_pair": [
+              0,
+              2
+            ],
+            "V_label": "4=(1, 0), 6=(1, 2)",
+            "V_pair": [
+              4,
+              6
+            ],
+            "record": {
+              "D1": 1.0,
+              "D1_times_D2": 1.0,
+              "D2": 1.0,
+              "M03": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 1.0,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                2.0
+              ],
+              "eig_M2": [
+                0.0,
+                2.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.0,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.0,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.0,
+              "margin_D1_minus_mixed12": -1.0,
+              "margin_D2_minus_mixed21": -1.0,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -1.0
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "slack_minus_penalty": 0.0
+            }
+          }
+        ],
+        "signature": [
+          1.0,
+          1.0,
+          4.0,
+          1.0,
+          3.0,
+          3.0,
+          0.0,
+          0.25,
+          0.25
+        ]
+      },
+      {
+        "count": 72,
+        "examples": [
+          {
+            "U_label": "0=(0, 0), 5=(1, 1)",
+            "U_pair": [
+              0,
+              5
+            ],
+            "V_label": "0=(0, 0), 5=(1, 1)",
+            "V_pair": [
+              0,
+              5
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                0.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.75,
+              "margin_D1_minus_mixed12": -1.5,
+              "margin_D2_minus_mixed21": -1.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0625,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.0625,
+              "same_pair_mismatch": 0.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 6=(1, 2)",
+            "U_pair": [
+              0,
+              6
+            ],
+            "V_label": "0=(0, 0), 6=(1, 2)",
+            "V_pair": [
+              0,
+              6
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                0.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.75,
+              "margin_D1_minus_mixed12": -1.5,
+              "margin_D2_minus_mixed21": -1.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0625,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.0625,
+              "same_pair_mismatch": 0.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 7=(1, 3)",
+            "U_pair": [
+              0,
+              7
+            ],
+            "V_label": "0=(0, 0), 7=(1, 3)",
+            "V_pair": [
+              0,
+              7
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                0.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.75,
+              "margin_D1_minus_mixed12": -1.5,
+              "margin_D2_minus_mixed21": -1.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0625,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.0625,
+              "same_pair_mismatch": 0.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 9=(2, 1)",
+            "U_pair": [
+              0,
+              9
+            ],
+            "V_label": "0=(0, 0), 9=(2, 1)",
+            "V_pair": [
+              0,
+              9
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "N12_times_N21": 4.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": 0.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                0.0,
+                0.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 3.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -3.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.75,
+              "margin_D1_minus_mixed12": -1.5,
+              "margin_D2_minus_mixed21": -1.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0625,
+              "mixed_norm_12": 2.0,
+              "mixed_norm_21": 2.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.0625,
+              "same_pair_mismatch": 0.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          }
+        ],
+        "signature": [
+          0.5,
+          0.5,
+          4.0,
+          0.25,
+          3.75,
+          3.75,
+          0.0,
+          0.0625,
+          0.0625
+        ]
+      },
+      {
+        "count": 48,
+        "examples": [
+          {
+            "U_label": "0=(0, 0), 1=(0, 1)",
+            "U_pair": [
+              0,
+              1
+            ],
+            "V_label": "0=(0, 0), 1=(0, 1)",
+            "V_pair": [
+              0,
+              1
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "N12_times_N21": 1.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": -1.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                -1.0,
+                1.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 0.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+              "margin_D1_minus_mixed12": -0.5,
+              "margin_D2_minus_mixed21": -0.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 1.0,
+              "mixed_norm_21": 1.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 2=(0, 2)",
+            "U_pair": [
+              0,
+              2
+            ],
+            "V_label": "0=(0, 0), 2=(0, 2)",
+            "V_pair": [
+              0,
+              2
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "N12_times_N21": 1.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": -1.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                -1.0,
+                1.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 0.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+              "margin_D1_minus_mixed12": -0.5,
+              "margin_D2_minus_mixed21": -0.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 1.0,
+              "mixed_norm_21": 1.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 3=(0, 3)",
+            "U_pair": [
+              0,
+              3
+            ],
+            "V_label": "0=(0, 0), 3=(0, 3)",
+            "V_pair": [
+              0,
+              3
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "N12_times_N21": 1.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": -1.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                -1.0,
+                1.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 0.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+              "margin_D1_minus_mixed12": -0.5,
+              "margin_D2_minus_mixed21": -0.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 1.0,
+              "mixed_norm_21": 1.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          },
+          {
+            "U_label": "0=(0, 0), 4=(1, 0)",
+            "U_pair": [
+              0,
+              4
+            ],
+            "V_label": "0=(0, 0), 4=(1, 0)",
+            "V_pair": [
+              0,
+              4
+            ],
+            "record": {
+              "D1": 0.5,
+              "D1_times_D2": 0.25,
+              "D2": 0.5,
+              "M03": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "N12_times_N21": 1.0,
+              "abs_m_sq": 0.25,
+              "delta": 0.0,
+              "delta_over_Nprod": 0.0,
+              "det_D": -1.0,
+              "det_identity_residual_abs": 0.0,
+              "eig_D2": [
+                -1.0,
+                1.0
+              ],
+              "eig_M2": [
+                0.0,
+                1.0
+              ],
+              "equality_test_abs_delta": 0.0,
+              "exchange_penalty_N12N21_minus_D1D2": 0.75,
+              "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+              "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+              "margin_D1_minus_mixed12": -0.5,
+              "margin_D2_minus_mixed21": -0.5,
+              "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+              "mixed_norm_12": 1.0,
+              "mixed_norm_21": 1.0,
+              "mixed_offdiag": {
+                "im": 0.0,
+                "re": -0.5
+              },
+              "mixed_offdiag_error": 0.0,
+              "normalized_gap_q_minus_corr_sq": 0.0,
+              "orthogonality_U12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "orthogonality_V12": {
+                "im": 0.0,
+                "re": 0.0
+              },
+              "penalty_minus_slack_equals_negative_delta": 0.0,
+              "penalty_to_slack_ratio": 1.0,
+              "penalty_to_slack_ratio_if_positive_slack": 1.0,
+              "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+              "same_pair_mismatch": 1.0,
+              "same_pair_offdiag": {
+                "im": 0.0,
+                "re": 0.5
+              },
+              "slack_minus_penalty": 0.0
+            }
+          }
+        ],
+        "signature": [
+          0.5,
+          0.5,
+          1.0,
+          0.25,
+          0.75,
+          0.75,
+          0.0,
+          0.25,
+          0.25
+        ]
+      }
+    ],
+    "max_identity_or_offdiag_residual_abs": 0.0,
+    "max_penalty_minus_slack_equals_negative_delta": [
+      0.0,
+      {
+        "U_label": "0=(0, 0), 1=(0, 1)",
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_label": "0=(0, 0), 1=(0, 1)",
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "abs_m_sq": 0.25,
+          "delta": 0.0,
+          "delta_over_Nprod": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "equality_test_abs_delta": 0.0,
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "normalized_gap_q_minus_corr_sq": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio": 1.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          },
+          "slack_minus_penalty": 0.0
+        }
+      }
+    ],
+    "max_penalty_to_slack_ratio": [
+      1.0,
+      {
+        "U_label": "0=(0, 0), 1=(0, 1)",
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_label": "0=(0, 0), 1=(0, 1)",
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "abs_m_sq": 0.25,
+          "delta": 0.0,
+          "delta_over_Nprod": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "equality_test_abs_delta": 0.0,
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "normalized_gap_q_minus_corr_sq": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio": 1.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          },
+          "slack_minus_penalty": 0.0
+        }
+      }
+    ],
+    "min_delta": [
+      0.0,
+      {
+        "U_label": "0=(0, 0), 1=(0, 1)",
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_label": "0=(0, 0), 1=(0, 1)",
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "abs_m_sq": 0.25,
+          "delta": 0.0,
+          "delta_over_Nprod": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "equality_test_abs_delta": 0.0,
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "normalized_gap_q_minus_corr_sq": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio": 1.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          },
+          "slack_minus_penalty": 0.0
+        }
+      }
+    ],
+    "min_normalized_gap_q_minus_corr_sq": [
+      0.0,
+      {
+        "U_label": "0=(0, 0), 1=(0, 1)",
+        "U_pair": [
+          0,
+          1
+        ],
+        "V_label": "0=(0, 0), 1=(0, 1)",
+        "V_pair": [
+          0,
+          1
+        ],
+        "record": {
+          "D1": 0.5,
+          "D1_times_D2": 0.25,
+          "D2": 0.5,
+          "M03": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "N12_times_N21": 1.0,
+          "abs_m_sq": 0.25,
+          "delta": 0.0,
+          "delta_over_Nprod": 0.0,
+          "det_D": -1.0,
+          "det_identity_residual_abs": 0.0,
+          "eig_D2": [
+            -1.0,
+            1.0
+          ],
+          "eig_M2": [
+            0.0,
+            1.0
+          ],
+          "equality_test_abs_delta": 0.0,
+          "exchange_penalty_N12N21_minus_D1D2": 0.75,
+          "exchange_product_margin_D1D2_minus_N12N21": -0.75,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 0.75,
+          "margin_D1_minus_mixed12": -0.5,
+          "margin_D2_minus_mixed21": -0.5,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.25,
+          "mixed_norm_12": 1.0,
+          "mixed_norm_21": 1.0,
+          "mixed_offdiag": {
+            "im": 0.0,
+            "re": -0.5
+          },
+          "mixed_offdiag_error": 0.0,
+          "normalized_gap_q_minus_corr_sq": 0.0,
+          "orthogonality_U12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": 0.0,
+          "penalty_to_slack_ratio": 1.0,
+          "penalty_to_slack_ratio_if_positive_slack": 1.0,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.25,
+          "same_pair_mismatch": 1.0,
+          "same_pair_offdiag": {
+            "im": 0.0,
+            "re": 0.5
+          },
+          "slack_minus_penalty": 0.0
+        }
+      }
+    ],
+    "positive_exchange_penalty_count": 6848,
+    "total": 14400
+  },
+  "elapsed_sec": 75.39684271812439,
+  "equivalence": "GramSlack>=ExchangePenalty iff D1*D2>=|m|^2 iff q:=D1D2/(N12N21) >= rho:=|m|^2/(N12N21) when N12N21>0",
+  "fail_closed_caveat": "Scalar crossed-minor diagnostics only; no Hermitian/positive/normal assumptions are imposed and no full PCL conclusion is claimed.",
+  "lane": "scalar slack-domination diagnostics for crossed PAL/PCL minor",
+  "local_optimization": {
+    "max_exchange_penalty": [
+      -3.7499942293150315,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 60,
+        "record": {
+          "D1": 0.5000055887570042,
+          "D1_times_D2": 0.2500042844659131,
+          "D2": 0.5000029801415115,
+          "M03": {
+            "im": 0.47925216592113523,
+            "re": 0.14253102628832565
+          },
+          "N12_times_N21": 3.9999985137809446,
+          "abs_m_sq": 0.2499977319949027,
+          "delta": 6.55247101038035e-06,
+          "delta_over_Nprod": 1.6381183612457683e-06,
+          "det_D": 4.6257301924628366e-11,
+          "det_identity_residual_abs": 2.875651444939932e-16,
+          "eig_D2": [
+            4.3625371452481185e-06,
+            1.0603302707694743e-05
+          ],
+          "eig_M2": [
+            6.552457797764921e-06,
+            1.000002016440718
+          ],
+          "equality_test_abs_delta": 6.55247101038035e-06,
+          "exchange_penalty_N12N21_minus_D1D2": 3.7499942293150315,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.7499942293150315,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.750000781786042,
+          "margin_D1_minus_mixed12": -1.4999940565626724,
+          "margin_D2_minus_mixed21": -1.4999966314292155,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.062499456220696366,
+          "mixed_norm_12": 1.9999996453196767,
+          "mixed_norm_21": 1.9999996115707268,
+          "mixed_offdiag": {
+            "im": 0.47925216592113523,
+            "re": 0.14253102628832562
+          },
+          "mixed_offdiag_error": 2.7755575615628914e-17,
+          "normalized_gap_q_minus_corr_sq": 1.6381183612565464e-06,
+          "orthogonality_U12": {
+            "im": -6.938893903907228e-18,
+            "re": 5.551115123125783e-17
+          },
+          "orthogonality_V12": {
+            "im": -3.122502256758253e-17,
+            "re": 0.0
+          },
+          "penalty_minus_slack_equals_negative_delta": -6.552471010667915e-06,
+          "penalty_to_slack_ratio": 0.9999982526747614,
+          "penalty_to_slack_ratio_if_positive_slack": 0.9999982526747614,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.06250109433905762,
+          "same_pair_mismatch": 1.0459760257833363e-06,
+          "same_pair_offdiag": {
+            "im": 0.47925120925716735,
+            "re": 0.1425306033700131
+          },
+          "slack_minus_penalty": 6.552471010667915e-06
+        },
+        "start": 0,
+        "success": false
+      }
+    ],
+    "max_penalty_to_slack_ratio": [
+      -0.9999970379320856,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 60,
+        "record": {
+          "D1": 0.5070122384336877,
+          "D1_times_D2": 0.2570519149862142,
+          "D2": 0.5069935112026573,
+          "M03": {
+            "im": -0.2615202152818301,
+            "re": -0.4343362871459332
+          },
+          "N12_times_N21": 3.998229004874909,
+          "abs_m_sq": 0.25704083333276934,
+          "delta": 1.1081653444931088e-05,
+          "delta_over_Nprod": 2.77164050168702e-06,
+          "det_D": 3.053357267179972e-07,
+          "det_identity_residual_abs": 2.7547374917193806e-16,
+          "eig_D2": [
+            1.0907697903215358e-05,
+            0.02799268272987234
+          ],
+          "eig_M2": [
+            1.0928708131852094e-05,
+            1.0139948209282135
+          ],
+          "equality_test_abs_delta": 1.1081653444931088e-05,
+          "exchange_penalty_N12N21_minus_D1D2": 3.741177089888695,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.741177089888695,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.74118817154214,
+          "margin_D1_minus_mixed12": -1.4924604001205044,
+          "margin_D2_minus_mixed21": -1.4926482582221081,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.06428867206439849,
+          "mixed_norm_12": 1.999472638554192,
+          "mixed_norm_21": 1.9996417694247655,
+          "mixed_offdiag": {
+            "im": -0.2615202152818301,
+            "re": -0.4343362871459332
+          },
+          "mixed_offdiag_error": 0.0,
+          "normalized_gap_q_minus_corr_sq": 2.77164050166423e-06,
+          "orthogonality_U12": {
+            "im": -9.020562075079397e-17,
+            "re": -1.5265566588595902e-16
+          },
+          "orthogonality_V12": {
+            "im": -8.326672684688674e-17,
+            "re": 4.85722573273506e-17
+          },
+          "penalty_minus_slack_equals_negative_delta": -1.1081653444655615e-05,
+          "penalty_to_slack_ratio": 0.9999970379320856,
+          "penalty_to_slack_ratio_if_positive_slack": 0.9999970379320856,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.06429144370490016,
+          "same_pair_mismatch": 0.013728329908389745,
+          "same_pair_offdiag": {
+            "im": -0.25375053463141894,
+            "re": -0.42301819964564347
+          },
+          "slack_minus_penalty": 1.1081653444655615e-05
+        },
+        "start": 0,
+        "success": false
+      }
+    ],
+    "maxiter": 60,
+    "min_delta": [
+      1.4531204332359976e-08,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 60,
+        "record": {
+          "D1": 0.6043300072554385,
+          "D1_times_D2": 0.3652327599222973,
+          "D2": 0.6043597960342891,
+          "M03": {
+            "im": 0.33500938482341014,
+            "re": 0.5029925024007149
+          },
+          "N12_times_N21": 3.9804194209104313,
+          "abs_m_sq": 0.36523274539109296,
+          "delta": 1.4531204332359976e-08,
+          "delta_over_Nprod": 3.6506716493299315e-09,
+          "det_D": 3.1229812623974413e-09,
+          "det_identity_residual_abs": 9.247290130310589e-17,
+          "eig_D2": [
+            7.482352556986704e-09,
+            0.41737959272664615
+          ],
+          "eig_M2": [
+            1.2022277451340102e-08,
+            1.20868979126745
+          ],
+          "equality_test_abs_delta": 1.4531204332359976e-08,
+          "exchange_penalty_N12N21_minus_D1D2": 3.615186660988134,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.615186660988134,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.6151866755193383,
+          "margin_D1_minus_mixed12": -1.3916787647793114,
+          "margin_D2_minus_mixed21": -1.3898295465570034,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.09175735186910383,
+          "mixed_norm_12": 1.99600877203475,
+          "mixed_norm_21": 1.9941893425912927,
+          "mixed_offdiag": {
+            "im": 0.3350093848234102,
+            "re": 0.5029925024007149
+          },
+          "mixed_offdiag_error": 5.551115123125783e-17,
+          "normalized_gap_q_minus_corr_sq": 3.650671653865345e-09,
+          "orthogonality_U12": {
+            "im": -2.7755575615628914e-17,
+            "re": -4.163336342344337e-17
+          },
+          "orthogonality_V12": {
+            "im": -1.8041124150158794e-16,
+            "re": 9.71445146547012e-17
+          },
+          "penalty_minus_slack_equals_negative_delta": -1.4531204239887074e-08,
+          "penalty_to_slack_ratio": 0.9999999959805107,
+          "penalty_to_slack_ratio_if_positive_slack": 0.9999999959805107,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.09175735551977549,
+          "same_pair_mismatch": 0.21741862703773537,
+          "same_pair_offdiag": {
+            "im": 0.2179449199572563,
+            "re": 0.31978013805656125
+          },
+          "slack_minus_penalty": 1.4531204239887074e-08
+        },
+        "start": 1,
+        "success": false
+      }
+    ],
+    "min_normalized_gap_q_minus_corr_sq": [
+      3.899191214726261e-06,
+      {
+        "message": "Maximum number of iterations has been exceeded.",
+        "nit": 60,
+        "record": {
+          "D1": 0.6433446098777968,
+          "D1_times_D2": 0.4140579280381897,
+          "D2": 0.6436020783897449,
+          "M03": {
+            "im": 0.6434073347087603,
+            "re": 0.008329449035309692
+          },
+          "N12_times_N21": 3.9879962461036693,
+          "abs_m_sq": 0.4140423780782625,
+          "delta": 1.554995992717576e-05,
+          "delta_over_Nprod": 3.899191214728022e-06,
+          "det_D": 6.600553514598398e-06,
+          "det_identity_residual_abs": 3.6745983317786057e-16,
+          "eig_D2": [
+            1.1501677675385125e-05,
+            0.5738774551711218
+          ],
+          "eig_M2": [
+            1.2082944900904113e-05,
+            1.286934605322641
+          ],
+          "equality_test_abs_delta": 1.554995992717576e-05,
+          "exchange_penalty_N12N21_minus_D1D2": 3.57393831806548,
+          "exchange_product_margin_D1D2_minus_N12N21": -3.57393831806548,
+          "gram_cauchy_slack_N12N21_minus_abs_m_sq": 3.5739538680254066,
+          "margin_D1_minus_mixed12": -1.3534733368576501,
+          "margin_D2_minus_mixed21": -1.3535736043626838,
+          "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.1038221584292583,
+          "mixed_norm_12": 1.996817946735447,
+          "mixed_norm_21": 1.9971756827524287,
+          "mixed_offdiag": {
+            "im": 0.6434073347087603,
+            "re": 0.008329449035309685
+          },
+          "mixed_offdiag_error": 6.938893903907228e-18,
+          "normalized_gap_q_minus_corr_sq": 3.899191214726261e-06,
+          "orthogonality_U12": {
+            "im": 6.006480035569695e-17,
+            "re": 0.0
+          },
+          "orthogonality_V12": {
+            "im": 0.0,
+            "re": 1.0408340855860843e-17
+          },
+          "penalty_minus_slack_equals_negative_delta": -1.55499599268083e-05,
+          "penalty_to_slack_ratio": 0.9999956490876768,
+          "penalty_to_slack_ratio_if_positive_slack": 0.9999956490876768,
+          "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.10382605762047302,
+          "same_pair_mismatch": 0.2811196360558939,
+          "same_pair_offdiag": {
+            "im": 0.3622998283050183,
+            "re": 0.005718008883140514
+          },
+          "slack_minus_penalty": 1.55499599268083e-05
+        },
+        "start": 0,
+        "success": false
+      }
+    ],
+    "scipy_available": true,
+    "starts": 2
+  },
+  "loop": "LOOP-0011",
+  "random_scan": {
+    "max_identity_or_offdiag_residual_abs": 8.881784197001252e-16,
+    "max_penalty_minus_slack_equals_negative_delta": [
+      -1.8042001266381493,
+      1251,
+      {
+        "D1": 1.2784489015059592,
+        "D1_times_D2": 1.8107493061885165,
+        "D2": 1.4163642395527343,
+        "M03": {
+          "im": -0.02410107306141429,
+          "re": 0.07725488869745181
+        },
+        "N12_times_N21": 2.5183835236206082,
+        "abs_m_sq": 0.0065491795503672965,
+        "delta": 1.8042001266381489,
+        "delta_over_Nprod": 0.7164119800324542,
+        "det_D": 1.7061368012617613,
+        "det_identity_residual_abs": 4.440892098500626e-16,
+        "eig_D2": [
+          1.175708610259358,
+          1.45115616775605
+        ],
+        "eig_M2": [
+          1.2410847022824694,
+          1.4537284387762235
+        ],
+        "equality_test_abs_delta": 1.8042001266381489,
+        "exchange_penalty_N12N21_minus_D1D2": 0.7076342174320918,
+        "exchange_product_margin_D1D2_minus_N12N21": -0.7076342174320918,
+        "gram_cauchy_slack_N12N21_minus_abs_m_sq": 2.511834344070241,
+        "margin_D1_minus_mixed12": -0.2869199088925112,
+        "margin_D2_minus_mixed21": -0.1924473752510285,
+        "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0026005489191541914,
+        "mixed_norm_12": 1.5653688103984704,
+        "mixed_norm_21": 1.6088116148037628,
+        "mixed_offdiag": {
+          "im": -0.02410107306141429,
+          "re": 0.07725488869745181
+        },
+        "mixed_offdiag_error": 0.0,
+        "normalized_gap_q_minus_corr_sq": 0.7164119800324543,
+        "orthogonality_U12": {
+          "im": -3.8163916471489756e-17,
+          "re": 2.7755575615628914e-17
+        },
+        "orthogonality_V12": {
+          "im": 5.551115123125783e-17,
+          "re": -6.938893903907228e-17
+        },
+        "penalty_minus_slack_equals_negative_delta": -1.8042001266381493,
+        "penalty_to_slack_ratio": 0.2817200979446053,
+        "penalty_to_slack_ratio_if_positive_slack": 0.2817200979446053,
+        "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.7190125289516085,
+        "same_pair_mismatch": 0.1440396247968898,
+        "same_pair_offdiag": {
+          "im": -0.007398931454027591,
+          "re": -0.0658131090426284
+        },
+        "slack_minus_penalty": 1.8042001266381493
+      }
+    ],
+    "max_penalty_to_slack_ratio": [
+      0.3025637369333136,
+      1490,
+      {
+        "D1": 1.5466704768483344,
+        "D1_times_D2": 1.9821997841598562,
+        "D2": 1.2815915308598922,
+        "M03": {
+          "im": -0.033308382827171634,
+          "re": -0.03281660991340275
+        },
+        "N12_times_N21": 2.8411746998533696,
+        "abs_m_sq": 0.002186378252769866,
+        "delta": 1.9800134059070864,
+        "delta_over_Nprod": 0.6968995627087884,
+        "det_D": 1.8893739231757674,
+        "det_identity_residual_abs": 2.220446049250313e-16,
+        "eig_D2": [
+          1.2160667518556194,
+          1.5536761615205217
+        ],
+        "eig_M2": [
+          1.2735853167827709,
+          1.5546766909254557
+        ],
+        "equality_test_abs_delta": 1.9800134059070864,
+        "exchange_penalty_N12N21_minus_D1D2": 0.8589749156935134,
+        "exchange_product_margin_D1D2_minus_N12N21": -0.8589749156935134,
+        "gram_cauchy_slack_N12N21_minus_abs_m_sq": 2.8389883216005996,
+        "margin_D1_minus_mixed12": -0.09213934870386997,
+        "margin_D2_minus_mixed21": -0.4520902274222336,
+        "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0007695331979700871,
+        "mixed_norm_12": 1.6388098255522043,
+        "mixed_norm_21": 1.7336817582821258,
+        "mixed_offdiag": {
+          "im": -0.03330838282717165,
+          "re": -0.03281660991340274
+        },
+        "mixed_offdiag_error": 1.962615573354719e-17,
+        "normalized_gap_q_minus_corr_sq": 0.6968995627087884,
+        "orthogonality_U12": {
+          "im": 1.3877787807814457e-17,
+          "re": -3.8163916471489756e-17
+        },
+        "orthogonality_V12": {
+          "im": 5.551115123125783e-17,
+          "re": 0.0
+        },
+        "penalty_minus_slack_equals_negative_delta": -1.9800134059070862,
+        "penalty_to_slack_ratio": 0.3025637369333136,
+        "penalty_to_slack_ratio_if_positive_slack": 0.3025637369333136,
+        "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.6976690959067585,
+        "same_pair_mismatch": 0.07385912126760767,
+        "same_pair_offdiag": {
+          "im": 0.024257674541739153,
+          "re": 0.013457776451220692
+        },
+        "slack_minus_penalty": 1.9800134059070862
+      }
+    ],
+    "min_delta": [
+      1.8042001266381489,
+      1251,
+      {
+        "D1": 1.2784489015059592,
+        "D1_times_D2": 1.8107493061885165,
+        "D2": 1.4163642395527343,
+        "M03": {
+          "im": -0.02410107306141429,
+          "re": 0.07725488869745181
+        },
+        "N12_times_N21": 2.5183835236206082,
+        "abs_m_sq": 0.0065491795503672965,
+        "delta": 1.8042001266381489,
+        "delta_over_Nprod": 0.7164119800324542,
+        "det_D": 1.7061368012617613,
+        "det_identity_residual_abs": 4.440892098500626e-16,
+        "eig_D2": [
+          1.175708610259358,
+          1.45115616775605
+        ],
+        "eig_M2": [
+          1.2410847022824694,
+          1.4537284387762235
+        ],
+        "equality_test_abs_delta": 1.8042001266381489,
+        "exchange_penalty_N12N21_minus_D1D2": 0.7076342174320918,
+        "exchange_product_margin_D1D2_minus_N12N21": -0.7076342174320918,
+        "gram_cauchy_slack_N12N21_minus_abs_m_sq": 2.511834344070241,
+        "margin_D1_minus_mixed12": -0.2869199088925112,
+        "margin_D2_minus_mixed21": -0.1924473752510285,
+        "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0026005489191541914,
+        "mixed_norm_12": 1.5653688103984704,
+        "mixed_norm_21": 1.6088116148037628,
+        "mixed_offdiag": {
+          "im": -0.02410107306141429,
+          "re": 0.07725488869745181
+        },
+        "mixed_offdiag_error": 0.0,
+        "normalized_gap_q_minus_corr_sq": 0.7164119800324543,
+        "orthogonality_U12": {
+          "im": -3.8163916471489756e-17,
+          "re": 2.7755575615628914e-17
+        },
+        "orthogonality_V12": {
+          "im": 5.551115123125783e-17,
+          "re": -6.938893903907228e-17
+        },
+        "penalty_minus_slack_equals_negative_delta": -1.8042001266381493,
+        "penalty_to_slack_ratio": 0.2817200979446053,
+        "penalty_to_slack_ratio_if_positive_slack": 0.2817200979446053,
+        "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.7190125289516085,
+        "same_pair_mismatch": 0.1440396247968898,
+        "same_pair_offdiag": {
+          "im": -0.007398931454027591,
+          "re": -0.0658131090426284
+        },
+        "slack_minus_penalty": 1.8042001266381493
+      }
+    ],
+    "min_exchange_product_margin_D1D2_minus_N12N21": [
+      -0.8589749156935134,
+      1490,
+      {
+        "D1": 1.5466704768483344,
+        "D1_times_D2": 1.9821997841598562,
+        "D2": 1.2815915308598922,
+        "M03": {
+          "im": -0.033308382827171634,
+          "re": -0.03281660991340275
+        },
+        "N12_times_N21": 2.8411746998533696,
+        "abs_m_sq": 0.002186378252769866,
+        "delta": 1.9800134059070864,
+        "delta_over_Nprod": 0.6968995627087884,
+        "det_D": 1.8893739231757674,
+        "det_identity_residual_abs": 2.220446049250313e-16,
+        "eig_D2": [
+          1.2160667518556194,
+          1.5536761615205217
+        ],
+        "eig_M2": [
+          1.2735853167827709,
+          1.5546766909254557
+        ],
+        "equality_test_abs_delta": 1.9800134059070864,
+        "exchange_penalty_N12N21_minus_D1D2": 0.8589749156935134,
+        "exchange_product_margin_D1D2_minus_N12N21": -0.8589749156935134,
+        "gram_cauchy_slack_N12N21_minus_abs_m_sq": 2.8389883216005996,
+        "margin_D1_minus_mixed12": -0.09213934870386997,
+        "margin_D2_minus_mixed21": -0.4520902274222336,
+        "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0007695331979700871,
+        "mixed_norm_12": 1.6388098255522043,
+        "mixed_norm_21": 1.7336817582821258,
+        "mixed_offdiag": {
+          "im": -0.03330838282717165,
+          "re": -0.03281660991340274
+        },
+        "mixed_offdiag_error": 1.962615573354719e-17,
+        "normalized_gap_q_minus_corr_sq": 0.6968995627087884,
+        "orthogonality_U12": {
+          "im": 1.3877787807814457e-17,
+          "re": -3.8163916471489756e-17
+        },
+        "orthogonality_V12": {
+          "im": 5.551115123125783e-17,
+          "re": 0.0
+        },
+        "penalty_minus_slack_equals_negative_delta": -1.9800134059070862,
+        "penalty_to_slack_ratio": 0.3025637369333136,
+        "penalty_to_slack_ratio_if_positive_slack": 0.3025637369333136,
+        "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.6976690959067585,
+        "same_pair_mismatch": 0.07385912126760767,
+        "same_pair_offdiag": {
+          "im": 0.024257674541739153,
+          "re": 0.013457776451220692
+        },
+        "slack_minus_penalty": 1.9800134059070862
+      }
+    ],
+    "min_normalized_gap_q_minus_corr_sq": [
+      0.6968995627087884,
+      1490,
+      {
+        "D1": 1.5466704768483344,
+        "D1_times_D2": 1.9821997841598562,
+        "D2": 1.2815915308598922,
+        "M03": {
+          "im": -0.033308382827171634,
+          "re": -0.03281660991340275
+        },
+        "N12_times_N21": 2.8411746998533696,
+        "abs_m_sq": 0.002186378252769866,
+        "delta": 1.9800134059070864,
+        "delta_over_Nprod": 0.6968995627087884,
+        "det_D": 1.8893739231757674,
+        "det_identity_residual_abs": 2.220446049250313e-16,
+        "eig_D2": [
+          1.2160667518556194,
+          1.5536761615205217
+        ],
+        "eig_M2": [
+          1.2735853167827709,
+          1.5546766909254557
+        ],
+        "equality_test_abs_delta": 1.9800134059070864,
+        "exchange_penalty_N12N21_minus_D1D2": 0.8589749156935134,
+        "exchange_product_margin_D1D2_minus_N12N21": -0.8589749156935134,
+        "gram_cauchy_slack_N12N21_minus_abs_m_sq": 2.8389883216005996,
+        "margin_D1_minus_mixed12": -0.09213934870386997,
+        "margin_D2_minus_mixed21": -0.4520902274222336,
+        "mixed_correlation_sq_abs_m_sq_over_Nprod": 0.0007695331979700871,
+        "mixed_norm_12": 1.6388098255522043,
+        "mixed_norm_21": 1.7336817582821258,
+        "mixed_offdiag": {
+          "im": -0.03330838282717165,
+          "re": -0.03281660991340274
+        },
+        "mixed_offdiag_error": 1.962615573354719e-17,
+        "normalized_gap_q_minus_corr_sq": 0.6968995627087884,
+        "orthogonality_U12": {
+          "im": 1.3877787807814457e-17,
+          "re": -3.8163916471489756e-17
+        },
+        "orthogonality_V12": {
+          "im": 5.551115123125783e-17,
+          "re": 0.0
+        },
+        "penalty_minus_slack_equals_negative_delta": -1.9800134059070862,
+        "penalty_to_slack_ratio": 0.3025637369333136,
+        "penalty_to_slack_ratio_if_positive_slack": 0.3025637369333136,
+        "same_pair_diagonal_ratio_Dprod_over_Nprod": 0.6976690959067585,
+        "same_pair_mismatch": 0.07385912126760767,
+        "same_pair_offdiag": {
+          "im": 0.024257674541739153,
+          "re": 0.013457776451220692
+        },
+        "slack_minus_penalty": 1.9800134059070862
+      }
+    ],
+    "positive_exchange_penalty_count": 750,
+    "samples": 1500
+  },
+  "status": "refined_ratio_identity_recorded; equality/near-equality mechanisms probed; no scalar violation_or_proof; not full_PCL"
+}

@@ -1,0 +1,1718 @@
+{
+  "loop": "LOOP-0010",
+  "lane": "full PCL coordinate orbit atlas",
+  "claim": "CLAIM-0001",
+  "caveat": "finite coordinate-support diagnostic only; not proof for arbitrary frames",
+  "max_update_identity_error": 8.881784197001252e-16,
+  "summary": {
+    "1": {
+      "total": 57600,
+      "negative_detM": 0,
+      "negative_detD": 0,
+      "min_detM": 0.5,
+      "min_detD": 0.0,
+      "unique_det_triple_count": 3,
+      "top_det_triples": [
+        [
+          "(2.0, 2.0, 0.0)",
+          32400
+        ],
+        [
+          "(1.0, 1.0, 0.0)",
+          21600
+        ],
+        [
+          "(0.5, 0.0, 0.5)",
+          3600
+        ]
+      ],
+      "sign_patterns": {
+        "('M+', 'D0')": 3600,
+        "('M+', 'D+')": 54000
+      },
+      "coarse_signature_count": 2,
+      "signature_examples": {
+        "k=1|usedP=1|usedQ=1|p(1,1)|q(1,1)|trace=1|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=1|usedP=1|usedQ=1|p(1,1)|q(1,1)|trace=0|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            1
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        }
+      }
+    },
+    "2": {
+      "total": 86400,
+      "negative_detM": 0,
+      "negative_detD": 48,
+      "min_detM": 0.0,
+      "min_detD": -1.0,
+      "unique_det_triple_count": 7,
+      "top_det_triples": [
+        [
+          "(2.0, 2.0, 0.0)",
+          38016
+        ],
+        [
+          "(4.0, 4.0, 0.0)",
+          26424
+        ],
+        [
+          "(1.0, 1.0, 0.0)",
+          11136
+        ],
+        [
+          "(1.0, 0.0, 1.0)",
+          6336
+        ],
+        [
+          "(0.5, 0.0, 0.5)",
+          4224
+        ],
+        [
+          "(0.0, 0.0, 0.0)",
+          216
+        ],
+        [
+          "(0.0, -1.0, 1.0)",
+          48
+        ]
+      ],
+      "sign_patterns": {
+        "('M+', 'D0')": 10560,
+        "('M0', 'D-')": 48,
+        "('M+', 'D+')": 75576,
+        "('M0', 'D0')": 216
+      },
+      "coarse_signature_count": 33,
+      "signature_examples": {
+        "k=2|usedP=1|usedQ=2|p(1,1)|q(1,2)|trace=1|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=2|usedP=2|usedQ=1|p(1,2)|q(1,1)|trace=1|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            2
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=2|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "update": 1.0
+        },
+        "k=2|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=0|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            1,
+            2
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=2|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=1|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            2
+          ],
+          "subset": [
+            0,
+            3
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=2|usedP=2|usedQ=1|p(1,2)|q(1,1)|trace=0|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            2
+          ],
+          "subset": [
+            1,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=2|usedP=1|usedQ=2|p(1,1)|q(1,2)|trace=0|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            2
+          ],
+          "subset": [
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=2|usedP=1|usedQ=2|p(1,1)|q(2,1)|trace=1|coll(0,1)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=2|usedP=2|usedQ=2|p(1,2)|q(2,1)|trace=1|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=2|usedP=2|usedQ=2|p(1,2)|q(2,1)|trace=0|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            1,
+            2
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=2|usedP=1|usedQ=2|p(1,1)|q(2,1)|trace=0|coll(0,1)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=2|usedP=1|usedQ=2|p(1,1)|q(2,2)|trace=1|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=2|usedP=2|usedQ=2|p(1,2)|q(2,2)|trace=1|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            3
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=2|usedP=2|usedQ=2|p(1,2)|q(2,2)|trace=0|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            1,
+            2
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=2|usedP=1|usedQ=2|p(1,1)|q(2,2)|trace=0|coll(0,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=2|usedP=2|usedQ=1|p(2,1)|q(1,1)|trace=1|coll(0,1)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            2
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=2|usedP=2|usedQ=2|p(2,1)|q(1,2)|trace=1|coll(0,0)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=2|usedP=2|usedQ=2|p(2,1)|q(1,2)|trace=0|coll(0,0)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            1,
+            2
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=2|usedP=2|usedQ=1|p(2,1)|q(1,1)|trace=0|coll(0,1)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            1,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=2|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,1)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "update": 1.0
+        }
+      }
+    },
+    "3": {
+      "total": 57600,
+      "negative_detM": 0,
+      "negative_detD": 96,
+      "min_detM": 0.0,
+      "min_detD": -1.0,
+      "unique_det_triple_count": 9,
+      "top_det_triples": [
+        [
+          "(4.0, 4.0, 0.0)",
+          21600
+        ],
+        [
+          "(2.0, 2.0, 0.0)",
+          13536
+        ],
+        [
+          "(8.0, 8.0, 0.0)",
+          9216
+        ],
+        [
+          "(1.0, 0.0, 1.0)",
+          5184
+        ],
+        [
+          "(2.0, 0.0, 2.0)",
+          3600
+        ],
+        [
+          "(1.0, 1.0, 0.0)",
+          2400
+        ],
+        [
+          "(0.5, 0.0, 0.5)",
+          1536
+        ],
+        [
+          "(0.0, 0.0, 0.0)",
+          432
+        ],
+        [
+          "(0.0, -1.0, 1.0)",
+          96
+        ]
+      ],
+      "sign_patterns": {
+        "('M+', 'D0')": 10320,
+        "('M0', 'D-')": 96,
+        "('M+', 'D+')": 46752,
+        "('M0', 'D0')": 432
+      },
+      "coarse_signature_count": 21,
+      "signature_examples": {
+        "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=1|coll(3,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(3,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "update": 1.0
+        },
+        "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=0|coll(3,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            2
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(1,2)|q(2,1)|trace=1|coll(1,1)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=3|usedP=2|usedQ=2|p(1,2)|q(2,1)|trace=0|coll(1,1)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(1,2)|q(2,2)|trace=1|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=3|usedP=2|usedQ=2|p(1,2)|q(2,2)|trace=0|coll(1,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,1)|q(1,2)|trace=1|coll(1,1)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=3|usedP=2|usedQ=2|p(2,1)|q(1,2)|trace=0|coll(1,1)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=1|coll(0,3)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=3|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,3)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "update": 1.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,1)|q(2,2)|trace=1|coll(0,1)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,1)|q(2,2)|trace=0|coll(0,1)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=0|coll(0,3)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            8
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,2)|q(1,2)|trace=1|coll(1,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,2)|q(1,2)|trace=0|coll(1,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,2)|q(2,1)|trace=1|coll(0,1)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,2)|q(2,1)|trace=0|coll(0,1)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,2)|q(2,2)|trace=1|coll(0,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            2
+          ],
+          "detM": 2.0,
+          "detD": 0.0,
+          "update": 2.0
+        },
+        "k=3|usedP=2|usedQ=2|p(2,2)|q(2,2)|trace=2|coll(0,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            3
+          ],
+          "detM": 0.0,
+          "detD": 0.0,
+          "update": 0.0
+        }
+      }
+    },
+    "4": {
+      "total": 14400,
+      "negative_detM": 0,
+      "negative_detD": 48,
+      "min_detM": 0.0,
+      "min_detD": -1.0,
+      "unique_det_triple_count": 11,
+      "top_det_triples": [
+        [
+          "(8.0, 8.0, 0.0)",
+          4032
+        ],
+        [
+          "(4.0, 4.0, 0.0)",
+          3744
+        ],
+        [
+          "(2.0, 0.0, 2.0)",
+          1728
+        ],
+        [
+          "(2.0, 2.0, 0.0)",
+          1728
+        ],
+        [
+          "(16.0, 16.0, 0.0)",
+          1152
+        ],
+        [
+          "(1.0, 0.0, 1.0)",
+          864
+        ],
+        [
+          "(4.0, 0.0, 4.0)",
+          576
+        ],
+        [
+          "(0.0, 0.0, 0.0)",
+          216
+        ],
+        [
+          "(0.5, 0.0, 0.5)",
+          192
+        ],
+        [
+          "(1.0, 1.0, 0.0)",
+          120
+        ],
+        [
+          "(0.0, -1.0, 1.0)",
+          48
+        ]
+      ],
+      "sign_patterns": {
+        "('M0', 'D-')": 48,
+        "('M+', 'D0')": 3360,
+        "('M+', 'D+')": 10776,
+        "('M0', 'D0')": 216
+      },
+      "coarse_signature_count": 21,
+      "signature_examples": {
+        "k=4|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(6,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=1|coll(6,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            2
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=4|usedP=2|usedQ=2|p(1,2)|q(2,1)|trace=1|coll(2,2)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(1,2)|q(2,2)|trace=1|coll(2,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=0|coll(6,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            2,
+            3
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(1,2)|q(2,2)|trace=0|coll(2,0)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            2,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(1,2)|q(2,1)|trace=0|coll(2,2)": {
+          "plane_P": [
+            0,
+            1
+          ],
+          "plane_Q": [
+            2,
+            6
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 4.0,
+          "detD": 4.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,1)|q(1,2)|trace=1|coll(2,2)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,6)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": -1.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,1)|q(2,2)|trace=1|coll(0,2)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=1|coll(0,6)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            0,
+            8
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.5,
+          "detD": 0.0,
+          "update": 0.5
+        },
+        "k=4|usedP=2|usedQ=2|p(2,1)|q(1,2)|trace=0|coll(2,2)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            1,
+            2
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 4.0,
+          "detD": 4.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=0|coll(0,6)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            1,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": 0.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,1)|q(2,2)|trace=0|coll(0,2)": {
+          "plane_P": [
+            0,
+            4
+          ],
+          "plane_Q": [
+            1,
+            6
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 4.0,
+          "detD": 4.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,2)|q(1,2)|trace=1|coll(2,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            1
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,2)|q(2,1)|trace=1|coll(0,2)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 0.0,
+          "update": 1.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,2)|q(2,2)|trace=2|coll(0,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            5
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 0.0,
+          "detD": 0.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,2)|q(2,2)|trace=1|coll(0,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            0,
+            6
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 0.0,
+          "update": 2.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,2)|q(1,2)|trace=0|coll(2,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            1,
+            2
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 2.0,
+          "detD": 2.0,
+          "update": 0.0
+        },
+        "k=4|usedP=2|usedQ=2|p(2,2)|q(2,2)|trace=0|coll(0,0)": {
+          "plane_P": [
+            0,
+            5
+          ],
+          "plane_Q": [
+            1,
+            4
+          ],
+          "subset": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "detM": 1.0,
+          "detD": 1.0,
+          "update": 0.0
+        }
+      }
+    }
+  },
+  "repaired_negative_D_examples": [
+    {
+      "k": 2,
+      "plane_P": [
+        0,
+        1
+      ],
+      "plane_Q": [
+        0,
+        1
+      ],
+      "subset": [
+        0,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=2|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(1,0)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        1
+      ],
+      "plane_Q": [
+        0,
+        1
+      ],
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(3,0)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        1
+      ],
+      "plane_Q": [
+        0,
+        1
+      ],
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(3,0)"
+    },
+    {
+      "k": 4,
+      "plane_P": [
+        0,
+        1
+      ],
+      "plane_Q": [
+        0,
+        1
+      ],
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=4|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(6,0)"
+    },
+    {
+      "k": 2,
+      "plane_P": [
+        0,
+        2
+      ],
+      "plane_Q": [
+        0,
+        2
+      ],
+      "subset": [
+        0,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=2|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(1,0)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        2
+      ],
+      "plane_Q": [
+        0,
+        2
+      ],
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(3,0)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        2
+      ],
+      "plane_Q": [
+        0,
+        2
+      ],
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(3,0)"
+    },
+    {
+      "k": 4,
+      "plane_P": [
+        0,
+        2
+      ],
+      "plane_Q": [
+        0,
+        2
+      ],
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=4|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(6,0)"
+    },
+    {
+      "k": 2,
+      "plane_P": [
+        0,
+        3
+      ],
+      "plane_Q": [
+        0,
+        3
+      ],
+      "subset": [
+        0,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=2|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(1,0)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        3
+      ],
+      "plane_Q": [
+        0,
+        3
+      ],
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(3,0)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        3
+      ],
+      "plane_Q": [
+        0,
+        3
+      ],
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(3,0)"
+    },
+    {
+      "k": 4,
+      "plane_P": [
+        0,
+        3
+      ],
+      "plane_Q": [
+        0,
+        3
+      ],
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=4|usedP=2|usedQ=2|p(1,2)|q(1,2)|trace=2|coll(6,0)"
+    },
+    {
+      "k": 2,
+      "plane_P": [
+        0,
+        4
+      ],
+      "plane_Q": [
+        0,
+        4
+      ],
+      "subset": [
+        0,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=2|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,1)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        4
+      ],
+      "plane_Q": [
+        0,
+        4
+      ],
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,3)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        4
+      ],
+      "plane_Q": [
+        0,
+        4
+      ],
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,3)"
+    },
+    {
+      "k": 4,
+      "plane_P": [
+        0,
+        4
+      ],
+      "plane_Q": [
+        0,
+        4
+      ],
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=4|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,6)"
+    },
+    {
+      "k": 2,
+      "plane_P": [
+        0,
+        8
+      ],
+      "plane_Q": [
+        0,
+        8
+      ],
+      "subset": [
+        0,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=2|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,1)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        8
+      ],
+      "plane_Q": [
+        0,
+        8
+      ],
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,3)"
+    },
+    {
+      "k": 3,
+      "plane_P": [
+        0,
+        8
+      ],
+      "plane_Q": [
+        0,
+        8
+      ],
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=3|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,3)"
+    },
+    {
+      "k": 4,
+      "plane_P": [
+        0,
+        8
+      ],
+      "plane_Q": [
+        0,
+        8
+      ],
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "detM": 0.0,
+      "detD": -1.0,
+      "update": 1.0,
+      "signature": "k=4|usedP=2|usedQ=2|p(2,1)|q(2,1)|trace=2|coll(0,6)"
+    }
+  ],
+  "success_condition_met": false
+}

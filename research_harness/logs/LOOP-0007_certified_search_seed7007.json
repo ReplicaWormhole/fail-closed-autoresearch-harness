@@ -1,0 +1,157 @@
+{
+  "claim": "CLAIM-0001-rank-two-partial-trace",
+  "loop": "LOOP-0007",
+  "seed": 7007,
+  "convention": {
+    "tr1": "tr_1(C)[a,b]=sum_i C[i,a,i,b]",
+    "tr2": "tr_2(C)[i,j]=sum_a C[i,a,j,a]"
+  },
+  "equality_regressions": {
+    "diag_difference": {
+      "rank": 2,
+      "fro2": 0.9999999999999998,
+      "trace_abs2": 0.0,
+      "tr1_fro2": 0.9999999999999998,
+      "tr2_fro2": 0.9999999999999998,
+      "gap": 0.0,
+      "normalized_gap": 0.0
+    },
+    "product_projection": {
+      "rank": 2,
+      "fro2": 0.9999999999999998,
+      "trace_abs2": 1.9999999999999996,
+      "tr1_fro2": 1.9999999999999996,
+      "tr2_fro2": 0.9999999999999998,
+      "gap": -2.220446049250313e-16,
+      "normalized_gap": -2.2204460492503136e-16
+    },
+    "phase_sparse_control": {
+      "rank": 2,
+      "fro2": 0.9999999999999998,
+      "trace_abs2": 0.9999999999999998,
+      "tr1_fro2": 0.9999999999999998,
+      "tr2_fro2": 0.9999999999999998,
+      "gap": -0.4999999999999999,
+      "normalized_gap": -0.5
+    }
+  },
+  "random_rank2": {
+    "trials": 20000,
+    "best": {
+      "normalized_gap": -1.2143877928448128,
+      "gap": -1.2143877928448128,
+      "trial": 14779,
+      "rank": 2
+    },
+    "positive_count_tol_1e-10": 0
+  },
+  "equality_perturbations_rank2_truncated": {
+    "diag_difference_eps_0.0001": {
+      "normalized_gap": -7.779413143726018e-10,
+      "gap": -7.779413143726017e-10,
+      "rank": 2,
+      "trial": 1042
+    },
+    "product_projection_eps_0.0001": {
+      "normalized_gap": -9.451427418483147e-10,
+      "gap": -9.45142741848315e-10,
+      "rank": 2,
+      "trial": 1233
+    },
+    "phase_sparse_control_eps_0.0001": {
+      "normalized_gap": -0.49998064397901465,
+      "gap": -0.4999806439790144,
+      "rank": 2,
+      "trial": 1682
+    },
+    "diag_difference_eps_0.001": {
+      "normalized_gap": -8.218863889517247e-08,
+      "gap": -8.218863889517248e-08,
+      "rank": 2,
+      "trial": 571
+    },
+    "product_projection_eps_0.001": {
+      "normalized_gap": -7.559984205318669e-08,
+      "gap": -7.55998420531867e-08,
+      "rank": 2,
+      "trial": 1702
+    },
+    "phase_sparse_control_eps_0.001": {
+      "normalized_gap": -0.499834450816114,
+      "gap": -0.4998344508161139,
+      "rank": 2,
+      "trial": 1846
+    },
+    "diag_difference_eps_0.01": {
+      "normalized_gap": -5.905189476814236e-06,
+      "gap": -5.905189476814236e-06,
+      "rank": 2,
+      "trial": 869
+    },
+    "product_projection_eps_0.01": {
+      "normalized_gap": -9.697876552694497e-06,
+      "gap": -9.697876552694495e-06,
+      "rank": 2,
+      "trial": 1818
+    },
+    "phase_sparse_control_eps_0.01": {
+      "normalized_gap": -0.4980831312713806,
+      "gap": -0.49808313127138093,
+      "rank": 2,
+      "trial": 1465
+    },
+    "diag_difference_eps_0.1": {
+      "normalized_gap": -0.0006486638637985338,
+      "gap": -0.0006486638637985338,
+      "rank": 2,
+      "trial": 632
+    },
+    "product_projection_eps_0.1": {
+      "normalized_gap": -0.0009409597265566116,
+      "gap": -0.0009409597265566116,
+      "rank": 2,
+      "trial": 834
+    },
+    "phase_sparse_control_eps_0.1": {
+      "normalized_gap": -0.48463314140064917,
+      "gap": -0.48463314140064917,
+      "rank": 2,
+      "trial": 343
+    },
+    "diag_difference_eps_0.5": {
+      "normalized_gap": -0.019886937106071218,
+      "gap": -0.01988693710607122,
+      "rank": 2,
+      "trial": 1538
+    },
+    "product_projection_eps_0.5": {
+      "normalized_gap": -0.0389421425382498,
+      "gap": -0.03894214253824979,
+      "rank": 2,
+      "trial": 30
+    },
+    "phase_sparse_control_eps_0.5": {
+      "normalized_gap": -0.5089164334629696,
+      "gap": -0.5089164334629693,
+      "rank": 2,
+      "trial": 758
+    }
+  },
+  "coordinate_two_unit_scan": {
+    "total": 130816,
+    "best": {
+      "normalized_gap": 0.0,
+      "pair": [
+        0,
+        85
+      ],
+      "phase": "-1",
+      "rank": 2
+    },
+    "count_positive": 0,
+    "count_zeroish": 264
+  },
+  "robust_positive_gap_found": false,
+  "success_condition_met": false,
+  "caveat": "Numerical search/regression only; absence of positives is not a proof."
+}

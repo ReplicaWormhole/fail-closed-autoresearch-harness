@@ -1,0 +1,684 @@
+{
+  "claim": "CLAIM-0001-rank-two-partial-trace",
+  "loop": "LOOP-0008",
+  "seed": 8008,
+  "convention": {
+    "tr1": "tr_1(C)[a,b]=sum_i C[i,a,i,b]",
+    "tr2": "tr_2(C)[i,j]=sum_a C[i,a,j,a]",
+    "pcl_target": "M=2I-A-B+(1/2)T should be PSD; violation is min_eig(M)<0 and original gap(C)>0"
+  },
+  "equality_controls": {
+    "product_projection_support_00_10": {
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_eig_M": 0.0,
+      "max_gap_eig_K": -0.0,
+      "top_original_normalized_gap": 2.2204460492503126e-16,
+      "top_original_rank": 2,
+      "gap_plus_rayleigh_M_abs_error": 2.2204460492503126e-16,
+      "principal_minors": {
+        "1": {
+          "min": {
+            "I": [
+              0
+            ],
+            "det": 0.5
+          },
+          "max": {
+            "I": [
+              2
+            ],
+            "det": 1.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "2": {
+          "min": {
+            "I": [
+              0,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2
+            ],
+            "det": 1.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "3": {
+          "min": {
+            "I": [
+              0,
+              1,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2,
+              3
+            ],
+            "det": 0.5
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "4": {
+          "min": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "negative_count_tol_1e-10": 0
+        }
+      }
+    },
+    "diagonal_traceless_support_00_11": {
+      "eig_M": [
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "min_eig_M": 0.0,
+      "max_gap_eig_K": -0.0,
+      "top_original_normalized_gap": 0.0,
+      "top_original_rank": 2,
+      "gap_plus_rayleigh_M_abs_error": 0.0,
+      "principal_minors": {
+        "1": {
+          "min": {
+            "I": [
+              0
+            ],
+            "det": 0.5
+          },
+          "max": {
+            "I": [
+              2
+            ],
+            "det": 2.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "2": {
+          "min": {
+            "I": [
+              0,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2
+            ],
+            "det": 4.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "3": {
+          "min": {
+            "I": [
+              0,
+              1,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2,
+              3
+            ],
+            "det": 2.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "4": {
+          "min": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "negative_count_tol_1e-10": 0
+        }
+      }
+    },
+    "right_product_support_00_01": {
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_eig_M": 0.0,
+      "max_gap_eig_K": -0.0,
+      "top_original_normalized_gap": 2.2204460492503126e-16,
+      "top_original_rank": 2,
+      "gap_plus_rayleigh_M_abs_error": 2.2204460492503126e-16,
+      "principal_minors": {
+        "1": {
+          "min": {
+            "I": [
+              0
+            ],
+            "det": 0.5
+          },
+          "max": {
+            "I": [
+              2
+            ],
+            "det": 1.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "2": {
+          "min": {
+            "I": [
+              0,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2
+            ],
+            "det": 1.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "3": {
+          "min": {
+            "I": [
+              0,
+              1,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2,
+              3
+            ],
+            "det": 0.5
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "4": {
+          "min": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "negative_count_tol_1e-10": 0
+        }
+      }
+    }
+  },
+  "coordinate_two_plane_scan": {
+    "total_pairs": 14400,
+    "negative_min_eig_count_tol_1e-10": 0,
+    "pair_count_with_negative_minor_by_size": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "worst": {
+      "eig_M": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min_eig_M": 0.0,
+      "max_gap_eig_K": -0.0,
+      "top_original_normalized_gap": 2.2204460492503126e-16,
+      "top_original_rank": 2,
+      "gap_plus_rayleigh_M_abs_error": 2.2204460492503126e-16,
+      "principal_minors": {
+        "1": {
+          "min": {
+            "I": [
+              0
+            ],
+            "det": 0.5
+          },
+          "max": {
+            "I": [
+              2
+            ],
+            "det": 1.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "2": {
+          "min": {
+            "I": [
+              0,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2
+            ],
+            "det": 1.0
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "3": {
+          "min": {
+            "I": [
+              0,
+              1,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              1,
+              2,
+              3
+            ],
+            "det": 0.5
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "4": {
+          "min": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "max": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 0.0
+          },
+          "negative_count_tol_1e-10": 0
+        }
+      },
+      "plane_P": [
+        0,
+        1
+      ],
+      "plane_Q": [
+        0,
+        1
+      ]
+    }
+  },
+  "random_scan": {
+    "trials": 3000,
+    "worst_min_eig": {
+      "eig_M": [
+        1.060359499717052,
+        1.5599588822676835,
+        1.6786356436729453,
+        1.721541971610387
+      ],
+      "min_eig_M": 1.060359499717052,
+      "max_gap_eig_K": -1.060359499717052,
+      "top_original_normalized_gap": -1.0603594997170516,
+      "top_original_rank": 2,
+      "gap_plus_rayleigh_M_abs_error": 6.661338147750939e-16,
+      "principal_minors": {
+        "1": {
+          "min": {
+            "I": [
+              0
+            ],
+            "det": 1.3122200452886648
+          },
+          "max": {
+            "I": [
+              2
+            ],
+            "det": 1.6072463885341872
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "2": {
+          "min": {
+            "I": [
+              0,
+              3
+            ],
+            "det": 1.9414364635485275
+          },
+          "max": {
+            "I": [
+              1,
+              2
+            ],
+            "det": 2.5367226743428573
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "3": {
+          "min": {
+            "I": [
+              0,
+              1,
+              3
+            ],
+            "det": 3.047540389060858
+          },
+          "max": {
+            "I": [
+              1,
+              2,
+              3
+            ],
+            "det": 3.829870649712979
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "4": {
+          "min": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 4.78013694483206
+          },
+          "max": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 4.78013694483206
+          },
+          "negative_count_tol_1e-10": 0
+        }
+      },
+      "trial": 2579
+    },
+    "positive_original_gap_count_tol_1e-10": 0,
+    "max_gap_identity_error": 2.6645352591003757e-15,
+    "min_principal_minor_by_size": {
+      "1": {
+        "det": 1.2177939820249133,
+        "trial": 545
+      },
+      "2": {
+        "det": 1.69074933141542,
+        "trial": 545
+      },
+      "3": {
+        "det": 2.5635066707197547,
+        "trial": 505
+      },
+      "4": {
+        "det": 4.020800087698649,
+        "trial": 470
+      }
+    }
+  },
+  "optimize_min_eig_M": {
+    "scipy": true,
+    "restarts": 6,
+    "maxiter": 150,
+    "best": {
+      "eig_M": [
+        3.2507330161017243e-13,
+        1.5217542054091155,
+        1.9999999999997633,
+        1.9999999999998774
+      ],
+      "min_eig_M": 3.2507330161017243e-13,
+      "max_gap_eig_K": -3.2507330161017243e-13,
+      "top_original_normalized_gap": -3.2427069109517103e-13,
+      "top_original_rank": 2,
+      "gap_plus_rayleigh_M_abs_error": 6.504728197464561e-16,
+      "principal_minors": {
+        "1": {
+          "min": {
+            "I": [
+              0
+            ],
+            "det": 0.8175109526183402
+          },
+          "max": {
+            "I": [
+              2
+            ],
+            "det": 1.909570919903513
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "2": {
+          "min": {
+            "I": [
+              0,
+              3
+            ],
+            "det": 0.21644232264948537
+          },
+          "max": {
+            "I": [
+              1,
+              2
+            ],
+            "det": 3.6179515826926085
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "3": {
+          "min": {
+            "I": [
+              0,
+              2,
+              3
+            ],
+            "det": 0.21635963493319288
+          },
+          "max": {
+            "I": [
+              1,
+              2,
+              3
+            ],
+            "det": 2.8271492758532655
+          },
+          "negative_count_tol_1e-10": 0
+        },
+        "4": {
+          "min": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 1.9780213676690832e-12
+          },
+          "max": {
+            "I": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "det": 1.9780213676690832e-12
+          },
+          "negative_count_tol_1e-10": 0
+        }
+      },
+      "restart": 5,
+      "optimizer_success": true,
+      "optimizer_fun": 3.2507330161017243e-13,
+      "nit": 134
+    }
+  },
+  "worst_overall": {
+    "eig_M": [
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "min_eig_M": 0.0,
+    "max_gap_eig_K": -0.0,
+    "top_original_normalized_gap": 2.2204460492503126e-16,
+    "top_original_rank": 2,
+    "gap_plus_rayleigh_M_abs_error": 2.2204460492503126e-16,
+    "principal_minors": {
+      "1": {
+        "min": {
+          "I": [
+            0
+          ],
+          "det": 0.5
+        },
+        "max": {
+          "I": [
+            2
+          ],
+          "det": 1.0
+        },
+        "negative_count_tol_1e-10": 0
+      },
+      "2": {
+        "min": {
+          "I": [
+            0,
+            3
+          ],
+          "det": 0.0
+        },
+        "max": {
+          "I": [
+            1,
+            2
+          ],
+          "det": 1.0
+        },
+        "negative_count_tol_1e-10": 0
+      },
+      "3": {
+        "min": {
+          "I": [
+            0,
+            1,
+            3
+          ],
+          "det": 0.0
+        },
+        "max": {
+          "I": [
+            1,
+            2,
+            3
+          ],
+          "det": 0.5
+        },
+        "negative_count_tol_1e-10": 0
+      },
+      "4": {
+        "min": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "det": 0.0
+        },
+        "max": {
+          "I": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "det": 0.0
+        },
+        "negative_count_tol_1e-10": 0
+      }
+    },
+    "plane_P": [
+      0,
+      1
+    ],
+    "plane_Q": [
+      0,
+      1
+    ]
+  },
+  "robust_pcl_violation_found": false,
+  "success_condition_met": false,
+  "caveat": "Numerical search/regression only; no proof of full PCL PSD and no certified positive-gap counterexample.",
+  "elapsed_sec": 117.47016215324402
+}

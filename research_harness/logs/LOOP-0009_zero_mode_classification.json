@@ -1,0 +1,765 @@
+{
+  "loop": "LOOP-0009",
+  "claim": "CLAIM-0001",
+  "tol": 1e-10,
+  "controls": {
+    "diag_difference": {
+      "name": "diag_difference",
+      "rank": 2,
+      "gap": 0.0,
+      "real_sphere_tangent_dim": 119,
+      "zero_count_tol": 9,
+      "negative_count_tol": 110,
+      "positive_count_tol": 0,
+      "eigenvalue_min": -2.0,
+      "eigenvalue_max": 0.0,
+      "zero_block_norm_aggregate": {
+        "core_PDQ": {
+          "min": 0.0,
+          "max": 0.9999999999999998,
+          "mean": 0.11111111111111109
+        },
+        "right_PDQperp": {
+          "min": 0.0,
+          "max": 0.4999999999999999,
+          "mean": 0.44444444444444436
+        },
+        "left_PperpDQ": {
+          "min": 0.0,
+          "max": 0.4999999999999999,
+          "mean": 0.44444444444444436
+        },
+        "forbidden_PperpDQperp": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      },
+      "zero_modes": [
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 0.0,
+          "tr2_fro2": 1.9999999999999996,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 0.0,
+          "tr2_fro2": 1.9999999999999996,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 0.0,
+          "tr2_fro2": 1.9999999999999996,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.9999999999999998,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": -1.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 0.9999999999999998,
+          "tr2_fro2": 0.9999999999999998,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 0.0,
+          "tr2_fro2": 1.9999999999999996,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.4999999999999999,
+            "left_PperpDQ": 0.4999999999999999,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        }
+      ],
+      "zero_mode_sweeps": [
+        {
+          "mode_index": 0,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": -2.465190328815662e-32,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": -2.4651903288156608e-32,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": 4.440892098500626e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": 0.0,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 1,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -6.1629758220391534e-33,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": -2.465190328815662e-32,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 2,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -6.1629758220391534e-33,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": -2.4651903288156613e-32,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": 0.0,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 3,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -6.1629758220391534e-33,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": -2.465190328815662e-32,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 4,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": -2.465190328815662e-32,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": -2.4651903288156613e-32,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": 0.0,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 5,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": 0.0,
+              "rank": 2
+            }
+          ]
+        }
+      ],
+      "interpretation": "Numerical zero-mode diagnostics only. Core/right/left block patterns suggest which modes may be support-basis or equality-family directions, but no exact classification is certified."
+    },
+    "product_projection": {
+      "name": "product_projection",
+      "rank": 2,
+      "gap": -2.220446049250313e-16,
+      "real_sphere_tangent_dim": 119,
+      "zero_count_tol": 13,
+      "negative_count_tol": 106,
+      "positive_count_tol": 0,
+      "eigenvalue_min": -2.0,
+      "eigenvalue_max": 0.0,
+      "zero_block_norm_aggregate": {
+        "core_PDQ": {
+          "min": 0.0,
+          "max": 0.9999999999999998,
+          "mean": 0.0769230769230769
+        },
+        "right_PDQperp": {
+          "min": 0.0,
+          "max": 0.9999999999999998,
+          "mean": 0.46153846153846145
+        },
+        "left_PperpDQ": {
+          "min": 0.0,
+          "max": 0.9999999999999998,
+          "mean": 0.46153846153846145
+        },
+        "forbidden_PperpDQperp": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      },
+      "zero_modes": [
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.9999999999999998,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.9999999999999998,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.9999999999999998,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.9999999999999998,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.9999999999999998,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.9999999999999998,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.9999999999999998,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.9999999999999998,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.9999999999999998,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.9999999999999998,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.9999999999999998,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.0,
+            "right_PDQperp": 0.9999999999999998,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": 0.0,
+          "trace_abs": 0.0,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.0,
+          "gap_quadratic": 0.0
+        },
+        {
+          "eig": 0.0,
+          "block_norms": {
+            "core_PDQ": 0.9999999999999998,
+            "right_PDQperp": 0.0,
+            "left_PperpDQ": 0.0,
+            "forbidden_PperpDQperp": 0.0
+          },
+          "phase_alignment_iC0": -1.0,
+          "trace_abs": 1.414213562373095,
+          "tr1_fro2": 1.9999999999999996,
+          "tr2_fro2": 0.9999999999999998,
+          "gap_quadratic": -2.220446049250313e-16
+        }
+      ],
+      "zero_mode_sweeps": [
+        {
+          "mode_index": 0,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -1.1102230246251565e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 1.1102230246251563e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 1,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -1.1102230246251565e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 1.1102230246251563e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 2,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": -1.1102230246251563e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -1.1102230246251565e-16,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 3,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": -1.1102230246251563e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -1.1102230246251565e-16,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 4,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": -1.1102230246251563e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -1.1102230246251565e-16,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "mode_index": 5,
+          "eig": 0.0,
+          "sweep": [
+            {
+              "eps": 0.1,
+              "ngap": -1.1102230246251565e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.03,
+              "ngap": 1.1102230246251563e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.01,
+              "ngap": 0.0,
+              "rank": 2
+            },
+            {
+              "eps": 0.003,
+              "ngap": 2.2204460492503136e-16,
+              "rank": 2
+            },
+            {
+              "eps": 0.001,
+              "ngap": -2.2204460492503136e-16,
+              "rank": 2
+            }
+          ]
+        }
+      ],
+      "interpretation": "Numerical zero-mode diagnostics only. Core/right/left block patterns suggest which modes may be support-basis or equality-family directions, but no exact classification is certified."
+    }
+  },
+  "success_condition_met": false,
+  "caveat": "Numerical tangent-zero diagnostics only; not an equality classification proof."
+}

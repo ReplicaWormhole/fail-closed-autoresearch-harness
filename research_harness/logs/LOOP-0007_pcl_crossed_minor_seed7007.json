@@ -1,0 +1,242 @@
+{
+  "convention": {
+    "basis_zero_based": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "crossed_indices_zero_based": [
+      0,
+      3
+    ],
+    "tr1": "tr_1(C)[a,b]=sum_i C[i,a,i,b]",
+    "tr2": "tr_2(C)[i,j]=sum_a C[i,a,j,a]"
+  },
+  "coordinate_sparse_summary": {
+    "min_delta_cross": [
+      0.0,
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "min_det_D2": [
+      -1.0,
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    "negative_D2_count": 48,
+    "total_coordinate_plane_pairs": 14400
+  },
+  "equality_regressions": {
+    "product": {
+      "D2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.0
+          },
+          {
+            "im": 0.0,
+            "re": -1.0
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": -1.0
+          },
+          {
+            "im": 0.0,
+            "re": 0.0
+          }
+        ]
+      ],
+      "M2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.5
+          },
+          {
+            "im": 0.0,
+            "re": -0.5
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": -0.5
+          },
+          {
+            "im": 0.0,
+            "re": 0.5
+          }
+        ]
+      ],
+      "delta_cross_direct": 0.0,
+      "delta_cross_formula": 0.0,
+      "det_D2": -1.0,
+      "eig_D2": [
+        -1.0,
+        1.0
+      ],
+      "eig_D_full": [
+        -1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "eig_M_full": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "identity_error": 0.0,
+      "pal_delta": 0.0,
+      "pal_error": 0.0,
+      "rank_one_update_term": 1.0,
+      "tr_pair": [
+        {
+          "im": 0.0,
+          "re": 1.0
+        },
+        {
+          "im": 0.0,
+          "re": 1.0
+        }
+      ]
+    },
+    "traceless": {
+      "D2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.0
+          },
+          {
+            "im": 0.0,
+            "re": 0.0
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": 0.0
+          },
+          {
+            "im": 0.0,
+            "re": 0.0
+          }
+        ]
+      ],
+      "M2": [
+        [
+          {
+            "im": 0.0,
+            "re": 0.5
+          },
+          {
+            "im": 0.0,
+            "re": 0.5
+          }
+        ],
+        [
+          {
+            "im": 0.0,
+            "re": 0.5
+          },
+          {
+            "im": 0.0,
+            "re": 0.5
+          }
+        ]
+      ],
+      "delta_cross_direct": 0.0,
+      "delta_cross_formula": 0.0,
+      "det_D2": 0.0,
+      "eig_D2": [
+        0.0,
+        0.0
+      ],
+      "eig_D_full": [
+        0.0,
+        0.0,
+        2.0,
+        2.0
+      ],
+      "eig_M2": [
+        0.0,
+        1.0
+      ],
+      "eig_M_full": [
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ],
+      "identity_error": 0.0,
+      "pal_delta": 0.0,
+      "pal_error": 0.0,
+      "rank_one_update_term": 0.0,
+      "tr_pair": [
+        {
+          "im": 0.0,
+          "re": 1.0
+        },
+        {
+          "im": 0.0,
+          "re": 1.0
+        }
+      ]
+    }
+  },
+  "random_summary": {
+    "max_pal_block_identity_error": 8.881784197001252e-16,
+    "max_rank_one_update_identity_error": 8.881784197001252e-16,
+    "min_delta_cross": [
+      1.7189848517707407,
+      137
+    ],
+    "min_det_D2": [
+      1.5892325445991295,
+      137
+    ],
+    "negative_D2_count": 0,
+    "negative_Dfull_count": 0,
+    "samples": 2000
+  },
+  "seed": 7007
+}
