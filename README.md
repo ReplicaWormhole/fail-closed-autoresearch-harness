@@ -41,3 +41,7 @@ The experiment is a search diagnostic only; its output does not establish or ref
 ## Scope
 
 This public extraction excludes third-party source payloads, compiled documents, raw terminal logs, temporary files, and machine-specific paths.  No license has yet been selected; obtain permission before redistributing or reusing this code.
+
+## Portfolio extraction
+
+This public repository is a representative extraction moved from a local research workspace for portfolio purposes.  It preserves selected protocols, experiment scripts, fixed-seed outputs, and review records, rather than the complete working tree or a full development history.
